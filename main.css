@@ -180,9 +180,9 @@ span.spacer {
 .hoverhidden .b {
     opacity: 0;
 }
-.hoverhidden .a:hover {
+.hoverhidden:hover .a {
     opacity: 0;
 }
-.hoverhidden .b:hover {
+.hoverhidden:hover .b {
     opacity: 1;
 }
