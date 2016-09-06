@@ -15,9 +15,9 @@ body {
 	display: inline-block;
 }
 .light-list > li {
-	margin-right: 0.6em;
+	margin-right: 0.3em;
 }
 .light-list > li:hover {
-	margin-left: 1.2em;
+	margin-left: 0.3em;
 	margin-right: 0em;
 }
