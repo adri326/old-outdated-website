@@ -170,3 +170,19 @@ span.spacer {
     text-align: right;
     float: right;
 }
+.hoverhidden {
+    
+}
+.hoverhidden .1 {
+    position: absolute;
+    opacity: 1;
+}
+.hoverhidden .2 {
+    opacity: 0;
+}
+.hoverhidden .1:hover {
+    opacity: 0;
+}
+.hoverhidden .2:hidden {
+    opacity: 1;
+}
