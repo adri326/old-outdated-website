@@ -14,3 +14,6 @@ body {
 .right {
 	display: inline-block;
 }
+.light-list > li:hover {
+	margin-right: 1.8em;
+}
