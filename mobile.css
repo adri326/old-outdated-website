@@ -1,0 +1,40 @@
+body {
+	font-size: 26px;
+  max-width: 100%;
+}
+#header {
+    height: 5.75em;
+}
+#table-container {
+	position: absolute;
+	top: 2.5em;
+	left: 0px;
+	right: 0px;
+	align-content: center;
+	width: 100%;
+}
+#header table {
+	margin: auto;
+  width: 12em;
+  text-align: center;
+}
+.small-circle {
+	padding-top: 3em;
+}
+.small-circle * {
+	transform: scale(1);
+}
+.light-list {
+  max-width: 100%;
+  x-overflow: wrap;
+}
+.light-list li {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  border-bottom: 2px solid #d0d0d0;
+  height: 3em;
+}
+.right {
+  display: block;
+  width: 100%;
+}
