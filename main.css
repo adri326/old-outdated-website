@@ -173,16 +173,16 @@ span.spacer {
 .hoverhidden {
     
 }
-.hoverhidden .1 {
+.hoverhidden .a {
     position: absolute;
     opacity: 1;
 }
-.hoverhidden .2 {
+.hoverhidden .b {
     opacity: 0;
 }
-.hoverhidden .1:hover {
+.hoverhidden .a:hover {
     opacity: 0;
 }
-.hoverhidden .2:hidden {
+.hoverhidden .b:hover {
     opacity: 1;
 }
