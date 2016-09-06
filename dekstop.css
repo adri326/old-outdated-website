@@ -1,0 +1,16 @@
+body {
+	font-size: 14px;
+}
+#header {
+    height: 3em;
+}
+#header table {
+	position: absolute;
+    right: 0px;
+}
+.small-circle {
+	padding-top: 2.2em;
+}
+.right {
+  display: inline-block;
+}
