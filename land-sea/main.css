@@ -13,22 +13,28 @@ body {
   filter: blur(2px);
 }
 .header {
-  margin-top: 12em;
+  margin-top: 8em;
   box-sizing: padding-box;
   width: 100%;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  font-size: 22px;
-  background: #22d022;
-  /*background-image: url("http://u.cubeupload.com/MarlowOfLittleroot/bigtitle.png");
-  background-repeat: no-repeat;*/
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 28px;
+  background: rgba(0,64,0,0.2);
 }
-.center {
+.center, .container {
   align-content: center;
   padding: auto;
   text-align: center;
 }
-.center > * {
+.center > *, .container > * {
   margin: auto;
   align-self: center;
+}
+.container {
+  margin-top: 16em;
+  font-size: 22px;
+  background: rgba(0,128,0,0.1);
+}
+.wrap-text {
+  width: 50%;
 }
