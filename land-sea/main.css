@@ -13,6 +13,7 @@ body {
   filter: blur(2px);
 }
 header {
+  margin-top: 12em;
   box-sizing: padding-box;
   width: 100%;
   padding-top: 0.5em;
