@@ -12,12 +12,23 @@ body {
   z-index: -999;
   filter: blur(2px);
 }
-header {
+.header {
   margin-top: 12em;
   box-sizing: padding-box;
   width: 100%;
-  padding-top: 0.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   font-size: 22px;
+  background: #22d022;
   /*background-image: url("http://u.cubeupload.com/MarlowOfLittleroot/bigtitle.png");
   background-repeat: no-repeat;*/
+}
+.center {
+  align-content: center;
+  padding: auto;
+  text-align: center;
+}
+.center > * {
+  margin: auto;
+  align-self: center;
 }
