@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+  background-image: url(http://u.cubeupload.com/MarlowOfLittleroot/bigtitle.png);
+  background-size: cover;
+  background-position: 0px 0px;
+}
+header {
+  box-sizing: padding-box;
+  width: 100%;
+  padding-top: 0.5em;
+  font-size: 22px;
+  background-image: url("http://u.cubeupload.com/MarlowOfLittleroot/bigtitle.png");
+  background-repeat: no-repeat;
+}
