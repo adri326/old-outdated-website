@@ -9,6 +9,7 @@ body {
   bottom: 0px;
   background-image: url(http://eskipaper.com/images/leaves-background-8.jpg);
   background-size: cover;
+  z-index: -999;
 }
 header {
   box-sizing: padding-box;
