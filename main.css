@@ -125,10 +125,9 @@ span.spacer {
     margin-right: auto;
 }
 .wrap-text {
-    text-align: left;
+    text-align: justify;
     width: 20em;
     font-size: 150%;
-    justify-content: 1;
 }
 .medium-circle {
     width: 8em;
