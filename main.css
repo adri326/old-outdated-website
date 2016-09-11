@@ -64,7 +64,11 @@ body {
     color: #FFFFFF;
 }
 .redBG {
-    background: #F06020;
+    background: #F02060;
+    color: #FFFFFF;
+}
+.purpleBG {
+    background: #B01070;
     color: #FFFFFF;
 }
 #header {
