@@ -8,7 +8,7 @@ function onscroll(event) {
   document.getElementById("bg").style.filter = "blur("+Math.min(scrollraw, 400)/200*6+"px)";
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
-    elems[n].style.opacity = (300-Math.min(scrollraw, 300))*1
+    elems[n].style.opacity = (Math.min(scrollraw, 300))/300;
   }
 };
 onscroll();
