@@ -10,7 +10,6 @@ body {
   background-image: url(http://eskipaper.com/images/leaves-background-8.jpg);
   background-size: cover;
   z-index: -999;
-  filter: blur(2px);
 }
 .header {
   margin-top: 6em;
