@@ -52,3 +52,6 @@ a:hover {
 .small-spacer {
   height: 2em;
 }
+.transparent {
+  opacity: 0;
+}
