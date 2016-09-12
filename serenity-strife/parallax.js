@@ -11,4 +11,4 @@ function onscroll(event) {
     elems[n].style.opacity = (Math.min(scrollraw, 300))/300;
   }
 };
-onscroll();
+window.onload = onscroll;
