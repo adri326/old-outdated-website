@@ -1,4 +1,5 @@
-window.addEventListener("scroll", function(event) {
+window.addEventListener("scroll", onscroll);
+function onscroll(event) {
   var body = document.body;
   var html = document.documentElement;
   var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
@@ -9,4 +10,5 @@ window.addEventListener("scroll", function(event) {
   for (n=0; n<elems.length; n++) {
     elems[n].style.opacity = (300-Math.min(scrollraw, 300))*1
   }
-});
+};
+onscroll();
