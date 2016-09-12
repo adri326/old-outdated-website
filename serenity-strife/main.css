@@ -8,11 +8,14 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
-  right: 0px;
-  bottom: 0px;
   background-image: url(http://eskipaper.com/images/leaves-background-8.jpg);
   background-size: cover;
   z-index: -999;
+  width: 20%;
+  height: 20%;
+  -webkit-filter: blur(2px);
+  -webkit-transform-origin: top left;
+  -webkit-transform: scale(5);
 }
 .header {
   margin-top: 6em;
