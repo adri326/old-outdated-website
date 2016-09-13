@@ -6,7 +6,7 @@ function onscroll(event) {
   var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
   var scrollraw = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
   var scroll = scrollraw/(height-html.clientHeight);
-  if (scrollraw<210&&oldscroll<210) {
+  if (scrollraw<210&&oldscroll<210&&false) {
     var bg = document.getElementById("bg");
     var modifier = 1;
     if (scrollraw<10) {
