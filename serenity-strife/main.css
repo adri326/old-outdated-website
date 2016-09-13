@@ -42,6 +42,7 @@ body {
   margin-top: 4em;
   font-size: 22px;
   background: rgba(0,128,0,0.1);
+  transition: all 0.2s;
 }
 .wrap-text {
   width: 50%;
