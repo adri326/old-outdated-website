@@ -7,7 +7,9 @@ function onscroll(event) {
   var scroll = scrollraw/(height-html.clientHeight);
   var bg = document.getElementById("bg");
   bg.style.filter = "blur("+Math.min(scrollraw, 400)/200*6+"px)";
-  bg.style.transform = "scale("+(Math.min(scrollraw, 400)/6400+1)+")";
+  bg.style.transform = "scale("+(Math.min(scrollraw, 400)/200+1)+")";
+  bg.style.width = 100/(Math.min(scrollraw, 400)/200);
+  bg.style.height = 100/(Math.min(scrollraw, 400)/200);
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
     elems[n].style.opacity = (Math.min(scrollraw, 300))/300;
