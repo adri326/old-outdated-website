@@ -14,6 +14,8 @@ body {
   -webkit-filter: blur(2px);
   -webkit-transform-origin: top left;
   -webkit-transform: scale(1);
+  -moz-transfrom-origin: top left;
+  -o-transform-origin: top left;
   transfrom-origin: top left;
 }
 .header {
