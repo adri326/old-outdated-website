@@ -33,7 +33,7 @@ function onscroll(event) {
     bg.style.transform = "scale(8)";
     modifier = 8;
   }
-  bg.style.filter = "blur("+Math.min(scrollraw, 400)/200*6/modifier+"px)";
+  bg.style.filter = "blur("+Math.min(scrollraw, 200)/100*6/modifier+"px)";
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
     elems[n].style.opacity = (Math.min(scrollraw, 300))/300;
