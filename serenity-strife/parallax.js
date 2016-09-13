@@ -14,11 +14,11 @@ function onscroll(event) {
   } else if (scrollraw<100) {
     bg.style.width = "50%";
     bg.style.height = "50%";
-    bg.style.transform = "scale(2)";
+    bg.style.transform = "scale(3)";
   } else {
     bg.style.width = "25%";
     bg.style.height = "25%";
-    bg.style.transform = "scale(4)";
+    bg.style.transform = "scale(7)";
   }
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
