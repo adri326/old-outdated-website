@@ -24,6 +24,7 @@ function onscroll(event) {
     modifier = 2;
   }
   bg.style.filter = "blur("+Math.min(scrollraw, 200)/100*2/modifier+"px)";
+  if (scrollraw<310||oldscroll<310)
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
     elems[n].style.opacity = (Math.min(scrollraw, 300))/300;
