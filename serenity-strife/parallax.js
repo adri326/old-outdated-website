@@ -6,24 +6,26 @@ function onscroll(event) {
   var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
   var scrollraw = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
   var scroll = scrollraw/(height-html.clientHeight);
-  var bg = document.getElementById("bg");
-  var modifier = 1;
-  if (scrollraw<10&&oldscroll>=10) {
-    bg.style.width = "100%";
-    bg.style.height = "100%";
-    bg.style.transform = "scale(1)";
-  } else if (scrollraw<100&&oldscroll<10&&oldscroll&&oldscroll>=100) {
-    bg.style.width = "66.666%";
-    bg.style.height = "66.666%";
-    bg.style.transform = "scale(1.5)";
-    modifier = 1.5;
-  } else if (oldscroll<100) {
-    bg.style.width = "50%";
-    bg.style.height = "50%";
-    bg.style.transform = "scale(2)";
-    modifier = 2;
+  if (scrollraw<210&&oldscroll<210) {
+    var bg = document.getElementById("bg");
+    var modifier = 1;
+    if (scrollraw<10) {
+      bg.style.width = "100%";
+      bg.style.height = "100%";
+      bg.style.transform = "scale(1)";
+    } else if (scrollraw<100) {
+      bg.style.width = "66.666%";
+      bg.style.height = "66.666%";
+      bg.style.transform = "scale(1.5)";
+      modifier = 1.5;
+    } else if (oldscroll<100) {
+      bg.style.width = "50%";
+      bg.style.height = "50%";
+      bg.style.transform = "scale(2)";
+      modifier = 2;
+    }
+    bg.style.filter = "blur("+Math.min(scrollraw, 200)/100*2/modifier+"px)";
   }
-  bg.style.filter = "blur("+Math.min(scrollraw, 200)/100*2/modifier+"px)";
   if (scrollraw<310||oldscroll<310)
   var elems = document.getElementsByClassName("container");
   for (n=0; n<elems.length; n++) {
