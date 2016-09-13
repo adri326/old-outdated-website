@@ -12,7 +12,7 @@ function onscroll(event) {
     bg.style.width = "100%";
     bg.style.height = "100%";
     bg.style.transform = "scale(1)";
-  } else if (scrollraw<25) {
+  } else if (scrollraw<50) {
     bg.style.width = "50%";
     bg.style.height = "50%";
     bg.style.transform = "scale(2)";
@@ -22,11 +22,16 @@ function onscroll(event) {
     bg.style.height = "25%";
     bg.style.transform = "scale(4)";
     modifier = 4;
+  } else if (scrollraw<150) {
+    bg.style.width = "12.5%";
+    bg.style.height = "12.5%";
+    bg.style.transform = "scale(8)";
+    modifier = 8;
   } else {
-    bg.style.width = "10%";
-    bg.style.height = "10%";
-    bg.style.transform = "scale(10)";
-    modifier = 10;
+    bg.style.width = "6.25%";
+    bg.style.height = "6.25%";
+    bg.style.transform = "scale(16)";
+    modifier = 16;
   }
   bg.style.filter = "blur("+Math.min(scrollraw, 400)/200*6/modifier+"px)";
   var elems = document.getElementsByClassName("container");
