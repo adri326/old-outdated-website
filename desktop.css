@@ -1,23 +1,23 @@
 body {
 	font-size: 14px;
 }
-#header {
+.material-style #header {
 	height: 3em;
 }
-#header table {
+.material-style #header table {
 	position: absolute;
 	right: 0px;
 }
-.small-circle {
+.material-style .small-circle {
 	padding-top: 2.2em;
 }
 .right {
 	display: inline-block;
 }
-.light-list > li {
+.material-style .light-list > li {
 	margin-right: 0.3em;
 }
-.light-list > li:hover {
+.material-style .light-list > li:hover {
 	margin-left: 0.3em;
 	margin-right: 0em;
 }

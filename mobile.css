@@ -2,10 +2,10 @@ body {
 	font-size: 26px;
   max-width: 100%;
 }
-#header {
+.material-style #header {
     height: 5.75em;
 }
-#table-container {
+.material-style #table-container {
 	position: absolute;
 	top: 2.5em;
 	left: 0px;
@@ -13,22 +13,22 @@ body {
 	align-content: center;
 	width: 100%;
 }
-#header table {
+.material-style #header table {
 	margin: auto;
   width: 12em;
   text-align: center;
 }
-.small-circle {
+.material-style .small-circle {
 	padding-top: 3em;
 }
-.small-circle * {
+.material-style .small-circle * {
 	transform: scale(1);
 }
-.light-list {
+.material-style .light-list {
   max-width: 100%;
   x-overflow: wrap;
 }
-.light-list li {
+.material-style .light-list li {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
   border-bottom: 2px solid #d0d0d0;
