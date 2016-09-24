@@ -21,3 +21,24 @@ body {
 	margin-left: 0.3em;
 	margin-right: 0em;
 }
+.spoiler {
+
+}
+.spoiler > .spoiler-button {
+	width: 100%;
+	height: 1.2em;
+	border-radius: 2px;
+	display: block;
+	text-align: center;
+}
+.spoiler-active > .spoiler-button {
+	margin-top: 0.2em;
+}
+.spoiler > .spoiler-list {
+	height: 0px;
+	overflow-y: hidden;
+	transition: height 0.2s;
+}
+.spoiler-active > .spoiler-list {
+	height: auto;
+}

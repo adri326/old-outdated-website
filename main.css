@@ -13,9 +13,6 @@ If you would like to propose me changes, to it on the above repository :)
 .material-style, .material-style * {
     transition: all 0.4s;
 }
-.white-color a {
-    color: #222222;
-}
 a {
     text-decoration: none;
 }
@@ -28,31 +25,31 @@ a:hover {
 body {
     margin: 0px;
 }
-.material-style {
-    background: #FDFDFD;
-}
 .material-style .big-bar {
     width: 100%;
-    height: 2em;
+    height: auto;
     font-size: 800%;
     text-align: center;
     padding-top: 0.45em;
+    padding-bottom: 0.45em;
     box-sizing: border-box;
 }
 .material-style .medium-bar {
     width: 100%;
-    height: 2em;
+    height: auto;
     font-size: 400%;
     text-align: center;
     padding-top: 0.45em;
+    padding-bottom: 0.45em;
     box-sizing: border-box;
 }
 .material-style .small-bar {
     width: 100%;
-    height: 2em;
+    height: auto;
     font-size: 200%;
     text-align: center;
     padding-top: 0.45em;
+    padding-bottom: 0.45em;
     box-sizing: border-box;
 }
 .material-style .very-small-bar {
@@ -62,30 +59,6 @@ body {
     text-align: center;
     padding-top: 0.45em;
     box-sizing: border-box;
-}
-.white-color .greenBG {
-    background: #20D080;
-    color: #FFFFFF;
-}
-.white-color .blueBG {
-    background: #20B0F0;
-    color: #FFFFFF;
-}
-.white-color .yellowBG {
-    background: #FFBE3A;
-    color: #202020;
-}
-.white-color .orangeBG {
-    background: #FF6820;
-    color: #FFFFFF;
-}
-.white-color .redBG {
-    background: #F02060;
-    color: #FFFFFF;
-}
-.white-color .purpleBG {
-    background: #B01070;
-    color: #FFFFFF;
 }
 .material-style #header {
     width: 100%;
@@ -106,9 +79,6 @@ body {
     text-align: center;
     font-size: 150%;
 }
-.white-color #header .center {
-    color: #fff;
-}
 .material-style #header table {
 
     border-collapse: separate;
@@ -119,17 +89,10 @@ body {
     padding-bottom: 0.45em;
     padding-right: 0.6em;
     padding-left: 0.6em;
-    background: #18A8E8;
     border-radius: 1.5px;
 }
 .material-style #header a {
     text-decoration: none;
-}
-.white-color #header a {
-    color: #fff;
-}
-.white-color #header td.hoverAnimation:hover {
-    background: #1090D0;
 }
 .material-style div.spacer {
     height: 6em;
@@ -187,19 +150,6 @@ body {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     text-align: left;
-}
-.white-color .light-list > li {
-    background: #FDFDFD;
-    border-left: 2px solid #A0A0A0;
-}
-.white-color .light-list > li:hover {
-    background: #F0F0F0;
-}
-.light-list > li:hover {
-    border-left: 2px solid #202020;
-}
-.white-color .grey-text {
-    color: #888;
 }
 .right {
     text-align: right;

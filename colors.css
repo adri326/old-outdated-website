@@ -1,0 +1,131 @@
+.white-color {
+    background: #FDFDFD;
+}
+.black-color {
+    background: #444444;
+    color: #ffffff;
+}
+
+
+.white-color a {
+    color: #222222;
+}
+.black-color a {
+    color: #dddddd;
+}
+
+
+.white-color .greenBG {
+    background: #20D080;
+    color: #FFFFFF;
+}
+.white-color .blueBG {
+    background: #20B0F0;
+    color: #FFFFFF;
+}
+.white-color .yellowBG {
+    background: #FFFE3A;
+    color: #202020;
+}
+.white-color .orangeBG {
+    background: #FF6820;
+    color: #FFFFFF;
+}
+.white-color .redBG {
+    background: #F02060;
+    color: #FFFFFF;
+}
+.white-color .purpleBG {
+    background: #B01070;
+    color: #FFFFFF;
+}
+
+
+.black-color .greenBG {
+    background: #20B060;
+    color: #FFFFFF;
+}
+.black-color .blueBG {
+    background: #2090D0;
+    color: #FFFFFF;
+}
+.black-color .yellowBG {
+    background: #F0D03A;
+    color: #202020;
+}
+.black-color .orangeBG {
+    background: #FF6820;
+    color: #FFFFFF;
+}
+.black-color .redBG {
+    background: #F02060;
+    color: #FFFFFF;
+}
+.black-color .purpleBG {
+    background: #B01070;
+    color: #FFFFFF;
+}
+.black-color .purpleBG:hover {
+    background: #A01060;
+}
+
+.black-color #header td.hoverAnimation {
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.black-color #header td.hoverAnimation:hover {
+    border: 1px solid #ffffff;
+}
+
+.white-color #header a, .black-color #header a {
+    color: #fff;
+}
+.white-color #header.blueBG td, .black-color #header.blueBG td {
+    background: #18A8E8;
+}
+.white-color #header.blueBG td.hoverAnimation:hover {
+    background: #1090D0;
+}
+.black-color #header.blueBG td.hoverAnimation:hover {
+    background: #1070B0;
+}
+.white-color #header.greenBG td {
+    background: #20E080;
+}
+.black-color #header.greenBG td {
+    background: #20C060;
+}
+.black-color #header.greenBG td.hoverAnimation:hover {
+    background: #20A060;
+}
+.white-color #header.greenBG td.hoverAnimation:hover {
+    background: #20C080;
+}
+.white-color #header.purpleBG td, .black-color #header.purpleBG td {
+    background: #C01080;
+}
+
+
+.white-color #header .center, .black-color #header .center {
+    color: #fff;
+}
+
+
+.white-color .light-list > li {
+    background: #FDFDFD;
+    border-left: 2px solid #A0A0A0;
+}
+.white-color .light-list > li:hover {
+    background: #F0F0F0;
+    border-left: 2px solid #202020;
+}
+.black-color .light-list > li {
+    background: #444444;
+    border-left: 2px solid #303030;
+}
+.black-color .light-list > li:hover {
+    background: #505050;
+    border-left: 2px solid #080808;
+}
+.white-color .grey-text, .black-color .grey-text {
+    color: #888;
+}

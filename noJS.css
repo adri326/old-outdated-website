@@ -1,0 +1,7 @@
+.menu > .menu-list {
+	position: initial;
+	top: 0;
+}
+.menu > .menu-button {
+	display: none;
+}
