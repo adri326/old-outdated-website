@@ -94,12 +94,26 @@ body {
 .material-style #header a {
     text-decoration: none;
 }
+.material-style div.big-spacer {
+    height: 12em;
+}
+.material-style span.big-spacer {
+    display: inline-block;
+    width: 8em;
+}
 .material-style div.spacer {
     height: 6em;
 }
 .material-style span.spacer {
     display: inline-block;
     width: 4em;
+}
+.material-style div.small-spacer {
+    height: 3em;
+}
+.material-style span.small-spacer {
+    display: inline-block;
+    width: 2em;
 }
 .center {
     padding-left: auto;

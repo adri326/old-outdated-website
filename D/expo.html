@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="../main.css" />
+    	<link rel="stylesheet" href="../desktop.css" media="screen and (min-device-width: 600px)">
+    	<link rel="stylesheet" href="../mobile.css" media="screen and (max-device-width: 600px)">
+    	<link rel="stylesheet" href="../colors.css" />
+      <link rel="stylesheet" href="expo.css" />
+    	<noscript><link rel="stylesheet" href="../noJS.css" /></noscript>
+	
+    	<script src="//www.google-analytics.com/analytics.js" async=""></script><script>
+          var frame = 1, maxframe = 3;
+          function nextPage() {
+            var iframes = document.getElementsByClassName("iframe");
+            frame = Math.min(frame + 1, maxframe);
+            actFrame(iframes);
+          }
+          function goPage(n) {
+            var iframes = document.getElementsByClassName("iframe");
+            frame = Math.min(n, maxframe);
+            actFrame(iframes);
+          }
+          function actFrame(iframes) {
+            for (var i = 0; i < iframes.length; i++) {
+              if (i==frame-1) {
+                iframes[i].id = "shown";
+              } else {
+                iframes[i].id = "";
+              }
+            }
+          }
+    	</script>
+	       
+    	<script src="../main.js"></script>
+	</head>
+	<body class="black-color material-style purple-main">
+    <header id="header" class="blueBG">
+      <div class="center">
+    		Vorstellung eines Zeitungsartikel
+      </div>
+      <div id="table-container">
+        <table>
+          <tbody>
+            <tr>
+            	<td class="hoverAnimation">
+                <a onclick="goPage(1);">
+                  1
+                </a>
+              </td>
+              <td class="hoverAnimation">
+                <a onclick="goPage(2);">
+                  2
+                </a>
+              </td>
+              <td class="hoverAnimation">
+                <a onclick="goPage(3);">
+                  3
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </header>
+    <div id="overlay" onclick="nextPage();"></div>
+    <iframe src="expo-1.html" class="iframe" id="shown"></iframe>
+    <iframe src="expo-2.html" class="iframe"></iframe>
+    <iframe src="expo-3.html" class="iframe"></iframe>
+  </body>
+</html>
