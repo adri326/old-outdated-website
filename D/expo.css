@@ -1,18 +1,19 @@
 iframe {
 	overflow: hidden;
-	height: 24em;
+	overflow-x: hidden;
+	height: 42em;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	border: none;
-	border-weight: 0;
 	position: absolute;
-	font-size: 150%;
-	top: 9em;
+	top: 12em;
 	transition-duration: 0.4s !important;
 	opacity: 0;
+	z-index: -2;
 }
 iframe#shown {
+	z-index: -1;
 	opacity: 1;
 	top: 3em;
 }
@@ -23,7 +24,7 @@ iframe#shown {
 	position: fixed;
 	font-size: 150%;
 	top: 3em;
-	left: 0;
+	width: 4em;
 	right: 0;
 	bottom: 0;
 	z-index: 1;

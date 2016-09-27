@@ -10,7 +10,7 @@
     	<noscript><link rel="stylesheet" href="../noJS.css" /></noscript>
 	
     	<script src="//www.google-analytics.com/analytics.js" async=""></script><script>
-          var frame = 1, maxframe = 3;
+          var frame = 1, maxframe = 4;
           function nextPage() {
             var iframes = document.getElementsByClassName("iframe");
             frame = Math.min(frame + 1, maxframe);
@@ -58,6 +58,16 @@
                   3
                 </a>
               </td>
+              <td class="hoverAnimation">
+                <a onclick="goPage(4);">
+                  4
+                </a>
+              </td>
+              <td class="hoverAnimation">
+                <a onclick="goPage(5);">
+                  5
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -67,5 +77,8 @@
     <iframe src="expo-1.html" class="iframe" id="shown"></iframe>
     <iframe src="expo-2.html" class="iframe"></iframe>
     <iframe src="expo-3.html" class="iframe"></iframe>
+    <iframe src="expo-4.html" class="iframe"></iframe>
+    <iframe src="expo-5.html" class="iframe"></iframe>
+    <iframe src="expo-6.html" class="iframe"></iframe>
   </body>
 </html>
