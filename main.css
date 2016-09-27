@@ -185,3 +185,15 @@ body {
 .hoverhidden:hover .b {
     opacity: 1;
 }
+
+.material-style .border-right {
+    border-right: 2px solid #ffffff;
+}
+.material-style #content table {
+    font-size: 150%;
+    width: 60%;
+}
+.material-style #content table td {
+    padding: 1em;
+    padding-top: 1em;
+}
