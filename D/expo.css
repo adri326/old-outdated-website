@@ -7,8 +7,8 @@ iframe {
 	padding: 0;
 	border: none;
 	position: absolute;
-	top: 12em;
-	transition-duration: 0.4s !important;
+	top: 7em;
+	transition-duration: 0.6s !important;
 	opacity: 0;
 	z-index: -2;
 }
@@ -16,6 +16,10 @@ iframe#shown {
 	z-index: -1;
 	opacity: 1;
 	top: 3em;
+	transition-delay: 0.8s;
+}
+iframe#unshown {
+	top: -1em;
 }
 #header {
 	z-index: 2;

@@ -13,16 +13,19 @@
           var frame = 1, maxframe = 6;
           function nextPage() {
             var iframes = document.getElementsByClassName("iframe");
+            unactframe();
             frame = Math.min(frame + 1, maxframe);
             actFrame(iframes);
           }
           function previousPage() {
             var iframes = document.getElementsByClassName("iframe");
+            unactframe();
             frame = Math.max(frame - 1, 1);
             actFrame(iframes);
           }
           function goPage(n) {
             var iframes = document.getElementsByClassName("iframe");
+            unactframe();
             frame = Math.min(n, maxframe);
             actFrame(iframes);
           }
@@ -30,9 +33,19 @@
             for (var i = 0; i < iframes.length; i++) {
               if (i==frame-1) {
                 iframes[i].id = "shown";
-              } else {
+              } else if (iframes[i].id != "unshown") {
                 iframes[i].id = "";
               }
+            }
+          }
+          function unactframe() {
+            var unshown = document.getElementById("unshown");
+            var shown = document.getElementById("shown");
+            if (unshown!=null) {
+              unshown.id = "";
+            }
+            if (shown!=null) {
+              shown.id = "unshown";
             }
           }
     	</script>
@@ -91,7 +104,8 @@
     </header>
     <div class="overlay" id="nextPage" onclick="nextPage();"></div>
     <div class="overlay" id="previousPage" onclick="previousPage();"></div>
-    <iframe src="expo-1.html" class="iframe" id="shown"></iframe>
+    <div class="overlay" style="right: 0; left: 0;" id="start" onclick="goPage(1); document.getElementById('start').style.visibility = 'hidden';"></div>
+    <iframe src="expo-1.html" class="iframe"></iframe>
     <iframe src="expo-2.html" class="iframe"></iframe>
     <iframe src="expo-3.html" class="iframe"></iframe>
     <iframe src="expo-4.html" class="iframe"></iframe>
