@@ -5,7 +5,9 @@
     background: #444444;
     color: #ffffff;
 }
-
+body.black-color.blackBG {
+    background: #303030;
+}
 
 .white-color a {
     color: #222222;

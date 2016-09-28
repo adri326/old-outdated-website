@@ -20,7 +20,7 @@
       </style>
     	<script src="../main.js"></script>
 	</head>
-	<body class="black-color material-style">
+	<body class="black-color material-style blackBG" id="body">
     <header id="header" class="greenBG" style="opacity: 0;">
       <div class="center">
     		Vorstellung eines Zeitungsartikel
@@ -66,7 +66,7 @@
     </header>
     <div class="overlay" id="nextPage" onclick="nextPage();"></div>
     <div class="overlay" id="previousPage" onclick="previousPage();"></div>
-    <div class="overlay" style="right: 0; left: 0;" id="start" onclick="goPage(1); document.getElementById('start').style.visibility = 'hidden'; document.getElementById('header').style.opacity = 1;"></div>
+    <div class="overlay" style="right: 0; left: 0;" id="start" onclick="goPage(1); document.getElementById('start').style.visibility = 'hidden'; document.getElementById('header').style.opacity = 1; document.getElementById('body').className = 'black-color material-style';"></div>
     <iframe src="expo-1.html" class="iframe"></iframe>
     <iframe src="expo-2.html" class="iframe"></iframe>
     <iframe src="expo-3.html" class="iframe"></iframe>
