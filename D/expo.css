@@ -20,14 +20,20 @@ iframe#shown {
 #header {
 	z-index: 2;
 }
-#overlay {
+.overlay {
 	position: fixed;
 	font-size: 150%;
 	top: 3em;
-	width: 4em;
-	right: 0;
 	bottom: 0;
 	z-index: 1;
+}
+#nextPage {
+	right: 0;
+	width: 12em;
+}
+#previousPage {
+	left: 0em;
+	width: 12em;
 }
 a {
 	cursor: pointer;

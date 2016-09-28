@@ -16,6 +16,11 @@
             frame = Math.min(frame + 1, maxframe);
             actFrame(iframes);
           }
+          function previousPage() {
+            var iframes = document.getElementsByClassName("iframe");
+            frame = Math.max(frame - 1, 1);
+            actFrame(iframes);
+          }
           function goPage(n) {
             var iframes = document.getElementsByClassName("iframe");
             frame = Math.min(n, maxframe);
@@ -34,8 +39,8 @@
 	       
     	<script src="../main.js"></script>
 	</head>
-	<body class="black-color material-style purple-main">
-    <header id="header" class="blueBG">
+	<body class="black-color material-style">
+    <header id="header" class="greenBG">
       <div class="center">
     		Vorstellung eines Zeitungsartikel
       </div>
@@ -78,7 +83,8 @@
         </table>
       </div>
     </header>
-    <div id="overlay" onclick="nextPage();"></div>
+    <div class="overlay" id="nextPage" onclick="nextPage();"></div>
+    <div class="overlay" id="previousPage" onclick="previousPage();"></div>
     <iframe src="expo-1.html" class="iframe" id="shown"></iframe>
     <iframe src="expo-2.html" class="iframe"></iframe>
     <iframe src="expo-3.html" class="iframe"></iframe>
