@@ -196,4 +196,14 @@ body {
 .material-style #content table td {
     padding: 1em;
     padding-top: 1em;
+    width: 50%;
+}
+.material-style .thin {
+    font-weight: 100;
+}
+.material-style .light {
+    font-weight: 150;
+}
+.material-style .regular {
+    font-weight: 500;
 }
