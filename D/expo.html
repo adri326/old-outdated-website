@@ -3,51 +3,13 @@
 	<head>
 		<title>"Wir sind alle Migranten"</title>
 		<link rel="stylesheet" href="../main.css" />
-    	<link rel="stylesheet" href="../desktop.css" media="screen and (min-device-width: 600px)">
-    	<link rel="stylesheet" href="../mobile.css" media="screen and (max-device-width: 600px)">
-    	<link rel="stylesheet" href="../colors.css" />
-      <link rel="stylesheet" href="expo.css" />
-    	<noscript><link rel="stylesheet" href="../noJS.css" /></noscript>
+    	<link rel="stylesheet" href="/css/desktop.css" media="screen and (min-device-width: 600px)">
+    	<link rel="stylesheet" href="/css/mobile.css" media="screen and (max-device-width: 600px)">
+    	<link rel="stylesheet" href="/css/colors.css" />
+        <link rel="stylesheet" href="/plugin/ppt/css/main.css" />
+    	<noscript><link rel="stylesheet" href="/css/noJS.css" /></noscript>
 	
-    	<script src="//www.google-analytics.com/analytics.js" async=""></script><script>
-          var frame = 1, maxframe = 6;
-          function nextPage() {
-            var iframes = document.getElementsByClassName("iframe");
-            unactframe();
-            frame = Math.min(frame + 1, maxframe);
-            actFrame(iframes);
-          }
-          function previousPage() {
-            var iframes = document.getElementsByClassName("iframe");
-            unactframe();
-            frame = Math.max(frame - 1, 1);
-            actFrame(iframes);
-          }
-          function goPage(n) {
-            var iframes = document.getElementsByClassName("iframe");
-            unactframe();
-            frame = Math.min(n, maxframe);
-            actFrame(iframes);
-          }
-          function actFrame(iframes) {
-            for (var i = 0; i < iframes.length; i++) {
-              if (i==frame-1) {
-                iframes[i].id = "shown";
-              } else if (iframes[i].id != "unshown") {
-                iframes[i].id = "";
-              }
-            }
-          }
-          function unactframe() {
-            var unshown = document.getElementById("unshown");
-            var shown = document.getElementById("shown");
-            if (unshown!=null) {
-              unshown.id = "";
-            }
-            if (shown!=null) {
-              shown.id = "unshown";
-            }
-          }
+    	<script src="//www.google-analytics.com/analytics.js" async=""></script><script src="/plugin/ppt/js/main.js">
     	</script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:light" />
       <style>
