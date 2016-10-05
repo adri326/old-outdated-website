@@ -249,19 +249,19 @@ input[type=submit], .pointer {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 * {
-    --shadow-width: 0.5dp;
-    --shadow-width-big: 0.5dp;
-    --shadow-modifier: 0dp;
+    --shadow-width: 0px;
+    --shadow-width-big: 0px;
+    --shadow-modifier: 0px;
 }
 .shadow-layer-1 {
-    --shadow-width: 1dp;
-    --shadow-width-big: 1dp;
-    --shadow-modifier: -0.5dp;
+    --shadow-width: 8px;
+    --shadow-width-big: 8px;
+    --shadow-modifier: -4px;
 }
 .shadow-layer-2 {
-    --shadow-width: 1.5dp;
-    --shadow-width-big: 1.5dp;
-    --shadow-modifier: -1dp;
+    --shadow-width: 16px;
+    --shadow-width-big: 16px;
+    --shadow-modifier: -8dp;
 }
 
 
@@ -274,7 +274,7 @@ input[type=submit], .pointer {
 .material-style.white-color.with-shadows .medium-circle,
 .material-style.white-color.with-shadows .big-circle,
 .material-style.white-color .shadow {
-    box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(0,0,0,0.25);
+    box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(0,0,0);
 }
 .material-style.white-color.with-shadows .very-small-bar:hover,
 .material-style.white-color.with-shadows .small-bar:hover,
@@ -284,7 +284,7 @@ input[type=submit], .pointer {
 .material-style.white-color.with-shadows .medium-circle:hover,
 .material-style.white-color.with-shadows .big-circle:hover,
 .material-style.white-color .shadow:hover {
-    box-shadow: 0 0 var(--shadow-width-big) var(--shadow-modifier) rgba(0,0,0,0.30);
+    box-shadow: 0 0 var(--shadow-width-big) var(--shadow-modifier) rgba(0,0,0);
 }
 .material-style.black-color.with-shadows .very-small-bar,
 .material-style.black-color.with-shadows .small-bar,
