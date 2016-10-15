@@ -144,24 +144,53 @@ body {
     width: 20em;
     font-size: 150%;
 }
-.material-style .medium-circle {
-    width: 4em;
-    height: 4em;
+
+/* circles */
+.material-style .medium-circle, .material-style .small-circle, .material-style .very-small-circle,
+.material-style .medium-circle-hover, .material-style .small-circle-hover, .material-style .very-small-circle-hover {
     border-radius: 4em;
+    align-content: center;
+    box-sizing: border-box;
+}
+.material-style .medium-circle-hover, .material-style .small-circle-hover, .material-style .very-small-circle-hover {
+    width: 1em;
+    height: 1em;
+    color: rgba(var(--colorR), var(--colorG), var(--colorB), 0);
+}
+.material-style .medium-circle-hover:hover, .material-style .small-circle-hover:hover, .material-style .very-small-circle-hover:hover {
+    color: rgba(var(--colorR), var(--colorG), var(--colorB), 1);
+}
+.material-style .medium-circle, .material-style .medium-circle-hover {
     font-size: 400%;
-    align-content: center;
-    box-sizing: border-box;
 }
-.material-style .small-circle {
+.material-style .medium-circle, .material-style .medium-circle-hover:hover {
     width: 4em;
     height: 4em;
-    border-radius: 4em;
-    font-size: 200%;
-    align-content: center;
-    box-sizing: border-box;
 }
-.material-style .small-circle * {
+.material-style .small-circle, .material-style .small-circle-hover {
+    font-size: 200%;
+}
+.material-style .small-circle, .material-style .small-circle-hover:hover {
+    width: 4em;
+    height: 4em;
+}
+.material-style .very-small-circle, .material-style .very-small-circle-hover {
+    font-size: 100%;
+}
+.material-style .very-small-circle, .material-style .very-small-circle-hover:hover {
+    width: 4em;
+    height: 4em;
+}
+.material-style .very-small-circle *, .material-style .small-circle *, .material-style .medium-circle * {
     margin: auto;
+}
+.material-style .anti-aliasing.medium-circle-hover:hover, .material-style .anti-aliasing.small-circle-hover:hover, .material-style .anti-aliasing.very-small-circle-hover:hover {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.material-style .anti-aliasing.medium-circle-hover, .material-style .anti-aliasing.small-circle-hover, .material-style .anti-aliasing.very-small-circle-hover {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 .material-style .light-list {
     list-style-type: none;
@@ -221,7 +250,7 @@ body {
     font-weight: 500;
 }
 
-/* header borders (links-button theme) */
+/* header links theme */
 .material-style #header.links-buttons td.hoverAnimation {
     border: 1px solid rgba(255, 255, 255, 0);
 }
@@ -258,54 +287,84 @@ input[type=submit], .pointer, .button {
 .material-style.black-color input:hover, .material-style.black-color textarea:hover, .material-style.black-color .button:hover {
     border: 1px solid rgba(255, 255, 255, 1);
 }
-* {
-    --shadow-width: 0px;
-    --shadow-width-big: 0px;
-    --shadow-modifier: 0px;
-}
-.shadow-layer-1 {
-    --shadow-width: 8px;
-    --shadow-width-big: 8px;
-    --shadow-modifier: -4px;
-}
-.shadow-layer-2 {
-    --shadow-width: 16px;
-    --shadow-width-big: 16px;
-    --shadow-modifier: -8px;
-}
 
+
+
+/* lines */
 .material-style .horizontal-line {
-    width: 80%;
-    margin-left: 10%;
+    width: var(--size);
+    margin-left: calc(50% - var(--size) / 2);
     display: block;
-    height: 3px;
+    height: var(--weight);
     padding: 0px;
     margin-top: 1em;
     margin-bottom: 1em;
 }
+.material-style div.vertical-line {
+    margin-left: calc(50% - var(--weight) / 2);
+    width: var(--weight);
+    height: var(--size);
+}
+.material-style td.vertical-line {
+    width: 4px;
+}
+.material-style .small-line {
+    --size: 4em;
+    --weight: 4px;
+}
+.material-style .medium-line {
+    --size: 6em;
+    --weight: 4px;
+}
+.material-style .big-line {
+    --size: 8em;
+    --weight: 4px;
+}
 
-
+/* no-margin element */
+.no-margin > * {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
 
 /* elements shadows */
-.material-style.white-color.with-shadows .very-small-bar,
-.material-style.white-color.with-shadows .small-bar,
-.material-style.white-color.with-shadows .medium-bar,
-.material-style.white-color.with-shadows .big-bar,
-.material-style.white-color.with-shadows .small-circle,
-.material-style.white-color.with-shadows .medium-circle,
-.material-style.white-color.with-shadows .big-circle,
-.material-style.white-color.with-shadows #header,
-.material-style.white-color .shadow {
-    box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(0,0,0);
+* {
+    --shadow-width: 0px;
+    --shadow-width-big: 0px;
+    --shadow-modifier: 0px;
+    --shadow-opacity: 0;
 }
-.material-style.black-color.with-shadows .very-small-bar,
-.material-style.black-color.with-shadows .small-bar,
-.material-style.black-color.with-shadows .medium-bar,
-.material-style.black-color.with-shadows .big-bar,
-.material-style.black-color.with-shadows .small-circle,
-.material-style.black-color.with-shadows .medium-circle,
-.material-style.black-color.with-shadows .big-circle,
-.material-style.black-color.with-shadows #header,
-.material-style.black-color .shadow {
-    box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(255,255,255,0.25);
+.shadow-layer-1 {
+    --shadow-width: 8px;
+    --shadow-width-big: 8px;
+    --shadow-modifier: -1px;
+    --shadow-opacity: 0.4;
+}
+.shadow-layer-2 {
+    --shadow-width: 16px;
+    --shadow-width-big: 16px;
+    --shadow-modifier: -2px;
+    --shadow-opacity: 0.5;
+}
+.shadow-layer-3 {
+    --shadow-width: 24px;
+    --shadow-width-big: 24px;
+    --shadow-modifier: -3px;
+    --shadow-opacity: 0.6;
+}
+
+.material-style.with-shadows .very-small-bar,
+.material-style.with-shadows .small-bar,
+.material-style.with-shadows .medium-bar,
+.material-style.with-shadows .big-bar,
+.material-style.with-shadows .medium-circle-hover,
+.material-style.with-shadows .small-circle-hover,
+.material-style.with-shadows .very-small-circle-hover,
+.material-style.with-shadows .very-small-circle,
+.material-style.with-shadows .small-circle,
+.material-style.with-shadows .medium-circle,
+.material-style.with-shadows .big-circle,
+.material-style.with-shadows #header,
+.material-style .shadow {
+    box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(0,0,0,var(--shadow-opacity));
 }
