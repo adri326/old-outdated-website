@@ -2,10 +2,18 @@
 
 .white-color {
     background: #FDFDFD;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .black-color {
     background: #444444;
-    color: #ffffff;
+    color: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 body.black-color.blackBG {
     background: #303030;
@@ -16,33 +24,57 @@ body.black-color.blackBG {
     color: #222222;
 }
 .black-color a {
-    color: #dddddd;
+    color: #DDDDDD;
 }
 
 /* bars background color (white-color theme), no hover */
 .white-color .greenBG {
     background: #20D080;
     color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .white-color .blueBG {
     background: #20B0F0;
     color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .white-color .yellowBG {
     background: #FFFE3A;
-    color: #202020;
+    color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .white-color .orangeBG {
     background: #FF6820;
     color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .white-color .redBG {
     background: #F02060;
     color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 .white-color .purpleBG {
     background: #B01070;
     color: #FFFFFF;
+    --color: #000000;
+    --colorR: 0;
+    --colorG: 0;
+    --colorB: 0;
 }
 
 /* bars background color (black-color theme), no hover */
