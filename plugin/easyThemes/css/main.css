@@ -4,145 +4,243 @@
     --mainColor-lighter: #28D888;
     --mainColor-darker: #18C878;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.blue-main {
     --mainColor: #20B0F0;
     --mainColor-lighter: #28B8F8;
     --mainColor-darker: #18A8E8;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.yellow-main {
     --mainColor: #FFFE3A;
     --mainColor-lighter: #FFFF40;
     --mainColor-darker: #F8F231;
-    --mainColorText: #202020;
+    --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
+
 }
 .white-color.orange-main {
     --mainColor: #FF6820;
     --mainColor-lighter: #FF7028;
     --mainColor-darker: #FF6018;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.red-main {
-    --mainColor: #F02060;
+    --mainColor: #F02040;
     --mainColor-lighter: #F82868;
     --mainColor-darker: #E81858;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.purple-main {
     --mainColor: #B01070;
     --mainColor-lighter: #B81878;
     --mainColor-darker: #A80868;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.green-main {
     --mainColor: #20B060;
     --mainColor-lighter: #28B868;
-    --mainColor-darker: #18A858;
+    --mainColor-darker: #20A060;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.blue-main {
     --mainColor: #2090D0;
     --mainColor-lighter: #2898D8;
     --mainColor-darker: #1888C8;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.yellow-main {
     --mainColor: #F0D03A;
     --mainColor-lighter: #F8D840;
     --mainColor-darker: #E8C832;
-    --mainColorText: #202020;
+    --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
+
 }
 .black-color.orange-main {
     --mainColor: #FF6820;
     --mainColor-lighter: #FF7028;
     --mainColor-darker: #F86018;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.red-main {
-    --mainColor: #F02060;
+    --mainColor: #F02040;
     --mainColor-lighter: #F82868;
-    --mainColor-darker: #E81858;
+    --mainColor-darker: #F04070;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.purple-main {
     --mainColor: #B01070;
-    --mainColor-lighter: #B81878;
-    --mainColor-darker: #A80868;
+    --mainColor-lighter: #C01080;
+    --mainColor-darker: #A01060;
     --mainColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 /* theme colors */
 .white-color.green-second {
     --secondColor: #20D080;
     --secondColor-lighter: #28D888;
-    --secondColor-darker: #18C878;
+    --secondColor-darker: #20A060;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.blue-second {
     --secondColor: #20B0F0;
     --secondColor-lighter: #28B8F8;
     --secondColor-darker: #18A8E8;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.yellow-second {
     --secondColor: #FFFE3A;
     --secondColor-lighter: #FFFF40;
     --secondColor-darker: #F8F231;
-    --secondColorText: #202020;
+    --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.orange-second {
     --secondColor: #FF6820;
     --secondColor-lighter: #FF7028;
     --secondColor-darker: #FF6018;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.red-second {
-    --secondColor: #F02060;
+    --secondColor: #F02040;
     --secondColor-lighter: #F82868;
-    --secondColor-darker: #E81858;
+    --secondColor-darker: #F04070;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .white-color.purple-second {
     --secondColor: #B01070;
     --secondColor-lighter: #B81878;
     --secondColor-darker: #A80868;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.green-second {
     --secondColor: #20B060;
     --secondColor-lighter: #28B868;
     --secondColor-darker: #18A858;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.blue-second {
     --secondColor: #2090D0;
     --secondColor-lighter: #2898D8;
     --secondColor-darker: #1888C8;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.yellow-second {
     --secondColor: #F0D03A;
     --secondColor-lighter: #F8D840;
     --secondColor-darker: #E8C832;
-    --secondColorText: #202020;
+    --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.orange-second {
     --secondColor: #FF6820;
     --secondColor-lighter: #FF7028;
     --secondColor-darker: #F86018;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.red-second {
-    --secondColor: #F02060;
+    --secondColor: #F02040;
     --secondColor-lighter: #F82868;
     --secondColor-darker: #E81858;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 .black-color.purple-second {
     --secondColor: #B01070;
-    --secondColor-lighter: #B81878;
+    --secondColor-lighter: #C01080;
     --secondColor-darker: #A80868;
     --secondColorText: #FFFFFF;
+    --color: #FFFFFF;
+    --colorR: 255;
+    --colorG: 255;
+    --colorB: 255;
 }
 
 .mainBG {
@@ -163,12 +261,19 @@
 .black-color #header.mainBG.links-buttons td.hoverAnimation:hover {
     background: var(--mainColor-lighter);
 }
-#header.second.links-buttons td, #header.second.links-flat td.hoverAnimation:hover {
+#header.secondBG.links-buttons td, #header.secondBG.links-flat td.hoverAnimation:hover {
     background: var(--secondColor-lighter);
 }
-.white-color #header.second.links-buttons td.hoverAnimation:hover, #header.second.links-flat-buttons td.hoverAnimation:hover {
+.white-color #header.secondBG.links-buttons td.hoverAnimation:hover, #header.secondBG.links-flat-buttons td.hoverAnimation:hover {
     background: var(--secondColor-darker);
 }
-.black-color #header.second.links-buttons td.hoverAnimation:hover {
+.black-color #header.secondBG.links-buttons td.hoverAnimation:hover {
     background: var(--secondColor-lighter);
+}
+
+.black-color .mainBG.hoverAnimation:hover {
+    background: var(--mainColor-darker);
+}
+.white-color .mainBG.hoverAnimation:hover {
+    background: var(--mainColor-lighter);
 }

@@ -8,7 +8,8 @@ body {
 	position: absolute;
 	right: 0px;
 }
-.material-style .small-circle {
+.material-style .small-circle, .material-style .medium-circle, .material-style .very-small-circle,
+.material-style .small-circle-hover:hover, .material-style .medium-circle-hover:hover, .material-style .very-small-circle-hover:hover {
 	padding-top: 1.35em;
 }
 .right {
