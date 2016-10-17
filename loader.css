@@ -2,6 +2,6 @@
 @import url('/css/colors.css');
 @import url('/css/desktop.css') screen and (min-device-width: 600px);
 @import url('/css/mobile.css') screen and (max-device-width: 600px);
-@supports (not(--test: #F0D0B0)) {
+@supports not(--test: #F0D0B0) {
 	@import url('/css/noVAR.css');
 }

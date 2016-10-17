@@ -139,10 +139,30 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.material-style .wrap-text {
-    text-align: justify;
-    width: 20em;
-    font-size: 150%;
+
+.spoiler-active > .spoiler-button {
+  margin-top: 0.2em;
+}
+.spoiler > .spoiler-list {
+  height: 0px;
+  overflow-y: hidden;
+  transition: height 0.2s;
+}
+.spoiler-active > .spoiler-list {
+  height: auto;
+}
+.spoiler > .spoiler-button {
+  width: 100%;
+  height: 1.2em;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+}
+
+
+.material-style .small-circle, .material-style .medium-circle, .material-style .very-small-circle,
+.material-style .small-circle-hover:hover, .material-style .medium-circle-hover:hover, .material-style .very-small-circle-hover:hover {
+    padding-top: 1.35em;
 }
 
 /* circles */
@@ -256,12 +276,6 @@ body {
 }
 .material-style #header.links-buttons td.hoverAnimation:hover {
     border: 1px solid #ffffff;
-}
-.material-style #header.links-flat-buttons td.hoverAnimation {
-    box-shadow: inset 8px 0px 2px -16px rgba(0,0,0,0.45), inset -8px 0px 2px -16px rgba(0,0,0,0.45);
-}
-.material-style #header.links-flat-buttons td.hoverAnimation:hover {
-    box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
 }
 
 /* textBoxes and textarea */
