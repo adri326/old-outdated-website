@@ -1,49 +1,50 @@
+@supports (not(--test: #F0D0B0) and not(background: var(--test))) {
+    
+    
+    .material-style.with-shadows .very-small-bar.shadow-layer-1,
+    .material-style.with-shadows .small-bar.shadow-layer-1,
+    .material-style.with-shadows .medium-bar.shadow-layer-1,
+    .material-style.with-shadows .big-bar.shadow-layer-1,
+    .material-style.with-shadows .medium-circle-hover.shadow-layer-1,
+    .material-style.with-shadows .small-circle-hover.shadow-layer-1,
+    .material-style.with-shadows .very-small-circle-hover.shadow-layer-1,
+    .material-style.with-shadows .very-small-circle.shadow-layer-1,
+    .material-style.with-shadows .small-circle.shadow-layer-1,
+    .material-style.with-shadows .medium-circle.shadow-layer-1,
+    .material-style.with-shadows .big-circle.shadow-layer-1,
+    .material-style.with-shadows #header.shadow-layer-1,
+    .material-style .shadow.shadow-layer-1 {
+        box-shadow: 0 0 8px -1px rgba(0,0,0,0.4);
+    }
+    .material-style.with-shadows .very-small-bar.shadow-layer-2,
+    .material-style.with-shadows .small-bar.shadow-layer-2,
+    .material-style.with-shadows .medium-bar.shadow-layer-2,
+    .material-style.with-shadows .big-bar.shadow-layer-2,
+    .material-style.with-shadows .medium-circle-hover.shadow-layer-2,
+    .material-style.with-shadows .small-circle-hover.shadow-layer-2,
+    .material-style.with-shadows .very-small-circle-hover.shadow-layer-2,
+    .material-style.with-shadows .very-small-circle.shadow-layer-2,
+    .material-style.with-shadows .small-circle.shadow-layer-2,
+    .material-style.with-shadows .medium-circle.shadow-layer-2,
+    .material-style.with-shadows .big-circle.shadow-layer-2,
+    .material-style.with-shadows #header.shadow-layer-2,
+    .material-style .shadow.shadow-layer-2 {
+        box-shadow: 0 0 16px -2px rgba(0,0,0,0.5);
+    }
+    .material-style.with-shadows .very-small-bar.shadow-layer-3,
+    .material-style.with-shadows .small-bar.shadow-layer-3,
+    .material-style.with-shadows .medium-bar.shadow-layer-3,
+    .material-style.with-shadows .big-bar.shadow-layer-3,
+    .material-style.with-shadows .medium-circle-hover.shadow-layer-3,
+    .material-style.with-shadows .small-circle-hover.shadow-layer-3,
+    .material-style.with-shadows .very-small-circle-hover.shadow-layer-3,
+    .material-style.with-shadows .very-small-circle.shadow-layer-3,
+    .material-style.with-shadows .small-circle.shadow-layer-3,
+    .material-style.with-shadows .medium-circle.shadow-layer-3,
+    .material-style.with-shadows .big-circle.shadow-layer-3,
+    .material-style.with-shadows #header.shadow-layer-3,
+    .material-style .shadow.shadow-layer-3 {
+        box-shadow: 0 0 24px -3px rgba(0,0,0,0.6);
+    }
 
-
-
-
-.material-style.with-shadows .very-small-bar.shadow-layer-1,
-.material-style.with-shadows .small-bar.shadow-layer-1,
-.material-style.with-shadows .medium-bar.shadow-layer-1,
-.material-style.with-shadows .big-bar.shadow-layer-1,
-.material-style.with-shadows .medium-circle-hover.shadow-layer-1,
-.material-style.with-shadows .small-circle-hover.shadow-layer-1,
-.material-style.with-shadows .very-small-circle-hover.shadow-layer-1,
-.material-style.with-shadows .very-small-circle.shadow-layer-1,
-.material-style.with-shadows .small-circle.shadow-layer-1,
-.material-style.with-shadows .medium-circle.shadow-layer-1,
-.material-style.with-shadows .big-circle.shadow-layer-1,
-.material-style.with-shadows #header.shadow-layer-1,
-.material-style .shadow.shadow-layer-1 {
-    box-shadow: 0 0 8px -1px rgba(0,0,0,0.4);
-}
-.material-style.with-shadows .very-small-bar.shadow-layer-2,
-.material-style.with-shadows .small-bar.shadow-layer-2,
-.material-style.with-shadows .medium-bar.shadow-layer-2,
-.material-style.with-shadows .big-bar.shadow-layer-2,
-.material-style.with-shadows .medium-circle-hover.shadow-layer-2,
-.material-style.with-shadows .small-circle-hover.shadow-layer-2,
-.material-style.with-shadows .very-small-circle-hover.shadow-layer-2,
-.material-style.with-shadows .very-small-circle.shadow-layer-2,
-.material-style.with-shadows .small-circle.shadow-layer-2,
-.material-style.with-shadows .medium-circle.shadow-layer-2,
-.material-style.with-shadows .big-circle.shadow-layer-2,
-.material-style.with-shadows #header.shadow-layer-2,
-.material-style .shadow.shadow-layer-2 {
-    box-shadow: 0 0 16px -2px rgba(0,0,0,0.5);
-}
-.material-style.with-shadows .very-small-bar.shadow-layer-3,
-.material-style.with-shadows .small-bar.shadow-layer-3,
-.material-style.with-shadows .medium-bar.shadow-layer-3,
-.material-style.with-shadows .big-bar.shadow-layer-3,
-.material-style.with-shadows .medium-circle-hover.shadow-layer-3,
-.material-style.with-shadows .small-circle-hover.shadow-layer-3,
-.material-style.with-shadows .very-small-circle-hover.shadow-layer-3,
-.material-style.with-shadows .very-small-circle.shadow-layer-3,
-.material-style.with-shadows .small-circle.shadow-layer-3,
-.material-style.with-shadows .medium-circle.shadow-layer-3,
-.material-style.with-shadows .big-circle.shadow-layer-3,
-.material-style.with-shadows #header.shadow-layer-3,
-.material-style .shadow.shadow-layer-3 {
-    box-shadow: 0 0 24px -3px rgba(0,0,0,0.6);
 }
