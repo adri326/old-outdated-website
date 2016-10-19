@@ -26,6 +26,15 @@ a:hover {
 body {
     margin: 0px;
 }
+
+h1.no-change, h2.no-change, h3.no-change {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+}
+
+
+
 .material-style .big-bar {
     width: 100%;
     height: auto;

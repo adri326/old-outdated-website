@@ -20,10 +20,19 @@ body {
   text-align: center;
   height: 3.25em !important;
 }
-.material-style .wrap-text {
-    text-align: justify;
-    width: 16em;
-    font-size: 125%;
+@media screen and (max-width: 600px) {
+  .material-style .wrap-text {
+      text-align: justify;
+      width: 16em;
+      font-size: 125%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .material-style .wrap-text {
+      text-align: justify;
+      width: 24em;
+      font-size: 125%;
+  }
 }
 
 .material-style .small-circle {
