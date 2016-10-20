@@ -27,7 +27,7 @@ body {
     margin: 0px;
 }
 
-h1.no-change, h2.no-change, h3.no-change {
+h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
     font-size: inherit;
     font-weight: inherit;
     text-decoration: inherit;
