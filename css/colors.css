@@ -79,32 +79,45 @@ body.black-color.blackBG {
 .white-color #header a, .black-color #header a {
     color: #fff;
 }
-.white-color #header.blueBG td, .black-color #header.blueBG td {
+/* BLUE */
+.white-color #header.blueBG.links-buttons td, .black-color #header.blueBG.links-buttons td, .white-color #header.blueBG.links-flat td.hoverAnimation:hover, .black-color #header.blueBG.links-flat td.hoverAnimation:hover {
     background: #18A8E8;
 }
-.white-color #header.blueBG td.hoverAnimation:hover {
+.white-color #header.blueBG.links-buttons td.hoverAnimation:hover {
     background: #1090D0;
 }
-.black-color #header.blueBG td.hoverAnimation:hover {
+.black-color #header.blueBG.links-buttons td.hoverAnimation:hover {
     background: #1070B0;
 }
-.white-color #header.greenBG td {
+/* GREEN */
+.white-color #header.greenBG.links-buttons td, .black-color #header.greenBG.links-buttons td, .white-color #header.greenBG.links-flat td.hoverAnimation:hover, .black-color #header.greenBG.links-flat td.hoverAnimation:hover {
     background: #20E080;
 }
-.black-color #header.greenBG td {
+.white-color #header.greenBG.links-buttons td.hoverAnimation:hover {
     background: #20C060;
 }
-.black-color #header.greenBG td.hoverAnimation:hover {
+.black-color #header.greenBG.links-buttons td.hoverAnimation:hover {
     background: #20A060;
 }
-.white-color #header.greenBG td.hoverAnimation:hover {
-    background: #20C080;
-}
-.white-color #header.purpleBG.links-buttons td, .black-color #header.purpleBG.links-buttons td {
+/* PURPLE */
+.white-color #header.purpleBG.links-buttons td, .black-color #header.purpleBG.links-buttons td, .white-color #header.purpleBG.links-flat td.hoverAnimation:hover, .black-color #header.purpleBG.links-flat td.hoverAnimation:hover {
     background: #C01080;
 }
-.white-color #header.purpleBG.links-flat td:hover, .black-color #header.purpleBG.links-flat td:hover {
-    background: #C01080;
+.white-color #header.purpleBG.links-buttons td.hoverAnimation:hover {
+    background: #B01070;
+}
+.black-color #header.purpleBG.links-buttons td.hoverAnimation:hover {
+    background: #A01060;
+}
+/* RED */
+.white-color #header.redBG.links-buttons td, .black-color #header.redBG.links-buttons td, .white-color #header.redBG.links-flat td.hoverAnimation:hover, .black-color #header.redBG.links-flat td.hoverAnimation:hover {
+    background: #F04070;
+}
+.white-color #header.redBG.links-buttons td.hoverAnimation:hover {
+    background: #F93090;
+}
+.black-color #header.redBG.links-buttons td.hoverAnimation:hover {
+    background: #FF20B0;
 }
 
 .white-color #header .center, .black-color #header .center {

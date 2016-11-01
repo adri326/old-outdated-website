@@ -225,3 +225,21 @@ body {
 .material-style #header.links-buttons td.hoverAnimation:hover {
     border: 1px solid #ffffff;
 }
+
+/* textBoxes and textarea */
+.material-style input[type=text], .material-style textarea {
+    border-radius: 3px;
+    padding: 0.2em;
+}
+.material-style.white-color input[type=text], .material-style.white-color textarea {
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.material-style.white-color input[type=text]:hover, .material-style.white-color textarea:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.material-style.black-color input[type=text], .material-style.black-color textarea {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.material-style.black-color input[type=text]:hover, .material-style.black-color textarea:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
