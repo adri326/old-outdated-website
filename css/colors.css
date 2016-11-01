@@ -100,11 +100,11 @@ body.black-color.blackBG {
 .white-color #header.greenBG td.hoverAnimation:hover {
     background: #20C080;
 }
-.white-color #header.purpleBG td, .black-color #header.purpleBG td {
+.white-color #header.purpleBG.links-buttons td, .black-color #header.purpleBG.links-buttons td {
     background: #C01080;
 }
 .white-color #header.purpleBG.links-flat td:hover, .black-color #header.purpleBG.links-flat td:hover {
-    background: #B81078;
+    background: #C01080;
 }
 
 .white-color #header .center, .black-color #header .center {
