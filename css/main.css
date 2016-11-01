@@ -93,6 +93,7 @@ body {
 .material-style #header.links-flat table {
     border-collapse: collapse;
     border-spacing: 0px;
+    height: 3em;
 }
 .material-style #header.links-flat td {
     padding-top: 0.6em;
