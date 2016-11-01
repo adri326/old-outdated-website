@@ -230,16 +230,18 @@ body {
 .material-style input[type=text], .material-style textarea {
     border-radius: 3px;
     padding: 0.2em;
-}
-.material-style.white-color input[type=text], .material-style.white-color textarea {
     border: 1px solid rgba(255, 255, 255, 0);
 }
-.material-style.white-color input[type=text]:hover, .material-style.white-color textarea:hover {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
 .material-style.black-color input[type=text], .material-style.black-color textarea {
-    border: 1px solid rgba(0, 0, 0, 0);
+    background: #282828;
+    color: #ffffff;
+}
+.material-style.white-color input[type=text], .material-style.white-color textarea {
+    background: #D0D0D0;
+}
+.material-style.white-color input[type=text]:hover, .material-style.white-color textarea:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
 }
 .material-style.black-color input[type=text]:hover, .material-style.black-color textarea:hover {
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
