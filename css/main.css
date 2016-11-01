@@ -207,3 +207,11 @@ body {
 .material-style .regular {
     font-weight: 500;
 }
+
+/* header borders (links-button theme) */
+.links-button #header td.hoverAnimation {
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.links-button #header td.hoverAnimation:hover {
+    border: 1px solid #ffffff;
+}

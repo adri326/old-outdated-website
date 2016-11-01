@@ -1,3 +1,5 @@
+/* Body background */
+
 .white-color {
     background: #FDFDFD;
 }
@@ -9,6 +11,7 @@ body.black-color.blackBG {
     background: #303030;
 }
 
+/* Links colors */
 .white-color a {
     color: #222222;
 }
@@ -16,7 +19,7 @@ body.black-color.blackBG {
     color: #dddddd;
 }
 
-
+/* bars background color (white-color theme), no hover */
 .white-color .greenBG {
     background: #20D080;
     color: #FFFFFF;
@@ -42,7 +45,7 @@ body.black-color.blackBG {
     color: #FFFFFF;
 }
 
-
+/* bars background color (black-color theme), no hover */
 .black-color .greenBG {
     background: #20B060;
     color: #FFFFFF;
@@ -67,17 +70,12 @@ body.black-color.blackBG {
     background: #B01070;
     color: #FFFFFF;
 }
-.black-color .purpleBG:hover {
+/* bars background color (black-color theme), hover */
+.black-color .purpleBG:not(.noHover):hover {
     background: #A01060;
 }
 
-.black-color #header td.hoverAnimation {
-    border: 1px solid rgba(255, 255, 255, 0);
-}
-.black-color #header td.hoverAnimation:hover {
-    border: 1px solid #ffffff;
-}
-
+/* header elements */
 .white-color #header a, .black-color #header a {
     color: #fff;
 }
@@ -111,7 +109,7 @@ body.black-color.blackBG {
     color: #fff;
 }
 
-
+/* lists */
 .white-color .light-list > li {
     background: #FDFDFD;
     border-left: 2px solid #A0A0A0;
@@ -128,6 +126,8 @@ body.black-color.blackBG {
     background: #505050;
     border-left: 2px solid #080808;
 }
+
+/* grey text */
 .white-color .grey-text, .black-color .grey-text {
     color: #888;
 }
