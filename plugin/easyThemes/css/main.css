@@ -1,0 +1,140 @@
+/* theme colors */
+.white-color.green-main {
+    --mainColor: #20D080;
+    --mainColor-lighter: #28D888;
+    --mainColor-darker: #18C878;
+    --mainColorText: #FFFFFF;
+}
+.white-color.blue-main {
+    --mainColor: #20B0F0;
+    --mainColor-lighter: #28B8F8;
+    --mainColor-darker: #18A8E8;
+    --mainColorText: #FFFFFF;
+}
+.white-color.yellow-main {
+    --mainColor: #FFFE3A;
+    --mainColor-lighter: #FFFF40;
+    --mainColor-darker: #F8F231;
+    --mainColorText: #202020;
+}
+.white-color.orange-main {
+    --mainColor: #FF6820;
+    --mainColor-lighter: #FF7028;
+    --mainColor-darker: #FF6018;
+    --mainColorText: #FFFFFF;
+}
+.white-color.red-main {
+    --mainColor: #F02060;
+    --mainColor-lighter: #F82868;
+    --mainColor-darker: #E81858;
+    --mainColorText: #FFFFFF;
+}
+.white-color.purple-main {
+    --mainColor: #B01070;
+    --mainColor-lighter: #B81878;
+    --mainColor-darker: #A80868;
+    --mainColorText: #FFFFFF;
+}
+.black-color.green-main {
+    --mainColor: #20B060;
+    --mainColor-lighter: #28B868;
+    --mainColor-darker: #18A858;
+    --mainColorText: #FFFFFF;
+}
+.black-color.blue-main {
+    --mainColor: #2090D0;
+    --mainColor-lighter: #2898D8;
+    --mainColor-darker: #1888C8;
+    --mainColorText: #FFFFFF;
+}
+.black-color.yellow-main {
+    --mainColor: #F0D03A;
+    --mainColor-lighter: #F8D840;
+    --mainColor-darker: #E8C832;
+    --mainColorText: #202020;
+}
+.black-color.orange-main {
+    --mainColor: #FF6820;
+    --mainColor-lighter: #FF7028;
+    --mainColor-darker: #F86018;
+    --mainColorText: #FFFFFF;
+}
+.black-color.red-main {
+    --mainColor: #F02060;
+    --mainColor-lighter: #F82868;
+    --mainColor-darker: #E81858;
+    --mainColorText: #FFFFFF;
+}
+.black-color.purple-main {
+    --mainColor: #B01070;
+    --mainColor-lighter: #B81878;
+    --mainColor-darker: #A80868;
+    --mainColorText: #FFFFFF;
+}
+.white-color.green-second {
+    --secondColor: #20D080;
+    --secondColorText: #FFFFFF;
+}
+.white-color.blue-second {
+    --secondColor: #20B0F0;
+    --secondColorText: #FFFFFF;
+}
+.white-color.yellow-second {
+    --secondColor: #FFFE3A;
+    --secondColorText: #202020;
+}
+.white-color.orange-second {
+    --secondColor: #FF6820;
+    --secondColorText: #FFFFFF;
+}
+.white-color.red-second {
+    --secondColor: #F02060;
+    --secondColorText: #FFFFFF;
+}
+.white-color.purple-second {
+    --secondColor: #B01070;
+    --secondColorText: #FFFFFF;
+}
+.black-color.green-second {
+    --secondColor: #20B060;
+    --secondColorText: #FFFFFF;
+}
+.black-color.blue-second {
+    --secondColor: #2090D0;
+    --secondColorText: #FFFFFF;
+}
+.black-color.yellow-second {
+    --secondColor: #F0D03A;
+    --secondColorText: #202020;
+}
+.black-color.orange-second {
+    --secondColor: #FF6820;
+    --secondColorText: #FFFFFF;
+}
+.black-color.red-second {
+    --secondColor: #F02060;
+    --secondColorText: #FFFFFF;
+}
+.black-color.purple-second {
+    --secondColor: #B01070;
+    --secondColorText: #FFFFFF;
+}
+
+.mainBG {
+    background: var(--mainColor);
+    color: var(--mainColorText);
+}
+.secondBG {
+    background: var(--secondColor);
+    color: var(--secondColorText);
+}
+
+#header.mainBG.links-buttons td, #header.mainBG.links-flat td.hoverAnimation:hover {
+    background: var(--mainColor-lighter);
+}
+.white-color #header.mainBG.links-buttons td.hoverAnimation:hover {
+    background: var(--mainColor-darker);
+}
+.black-color #header.mainBG.links-buttons td.hoverAnimation:hover {
+    background: var(--mainColor-lighter);
+}

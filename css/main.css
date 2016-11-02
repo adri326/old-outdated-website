@@ -227,21 +227,24 @@ body {
 }
 
 /* textBoxes and textarea */
-.material-style input[type=text], .material-style textarea {
+.material-style input, .material-style textarea, .material-style .button {
     border-radius: 3px;
     padding: 0.2em;
     border: 1px solid rgba(255, 255, 255, 0);
 }
-.material-style.black-color input[type=text], .material-style.black-color textarea {
+input[type=submit], .pointer {
+    cursor: pointer;
+}
+.material-style.black-color input, .material-style.black-color textarea, .material-style.black-color .button {
     background: #282828;
     color: #ffffff;
 }
-.material-style.white-color input[type=text], .material-style.white-color textarea {
+.material-style.white-color input, .material-style.white-color textarea, .material-style.white-color .button {
     background: #D0D0D0;
 }
-.material-style.white-color input[type=text]:hover, .material-style.white-color textarea:hover {
+.material-style.white-color input:hover, .material-style.white-color textarea:hover, .material-style.black-color .button:hover {
     border: 1px solid rgba(0, 0, 0, 1);
 }
-.material-style.black-color input[type=text]:hover, .material-style.black-color textarea:hover {
+.material-style.black-color input:hover, .material-style.black-color textarea:hover, .material-style.white-color .button:hover {
     border: 1px solid rgba(255, 255, 255, 1);
 }
