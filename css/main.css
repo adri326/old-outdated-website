@@ -248,3 +248,46 @@ input[type=submit], .pointer {
 .material-style.black-color input:hover, .material-style.black-color textarea:hover, .material-style.white-color .button:hover {
     border: 1px solid rgba(255, 255, 255, 1);
 }
+
+
+/* elements shadows */
+.material-style.white-color.with-shadows .very-small-bar,
+.material-style.white-color.with-shadows .small-bar,
+.material-style.white-color.with-shadows .medium-bar,
+.material-style.white-color.with-shadows .big-bar,
+.material-style.white-color.with-shadows .small-circle,
+.material-style.white-color.with-shadows .medium-circle,
+.material-style.white-color.with-shadows .big-circle,
+.material-style.white-color .shadow {
+    box-shadow: 0 0 8px rgba(0,0,0,0.25);
+}
+.material-style.white-color.with-shadows .very-small-bar:hover,
+.material-style.white-color.with-shadows .small-bar:hover,
+.material-style.white-color.with-shadows .medium-bar:hover,
+.material-style.white-color.with-shadows .big-bar:hover,
+.material-style.white-color.with-shadows .small-circle:hover,
+.material-style.white-color.with-shadows .medium-circle:hover,
+.material-style.white-color.with-shadows .big-circle:hover,
+.material-style.white-color .shadow:hover {
+    box-shadow: 0 0 24px rgba(0,0,0,0.30);
+}
+.material-style.black-color.with-shadows .very-small-bar,
+.material-style.black-color.with-shadows .small-bar,
+.material-style.black-color.with-shadows .medium-bar,
+.material-style.black-color.with-shadows .big-bar,
+.material-style.black-color.with-shadows .small-circle,
+.material-style.black-color.with-shadows .medium-circle,
+.material-style.black-color.with-shadows .big-circle,
+.material-style.black-color .shadow {
+    box-shadow: 0 0 8px rgba(255,255,255,0.25);
+}
+.material-style.black-color.with-shadows .very-small-bar:hover,
+.material-style.black-color.with-shadows .small-bar:hover,
+.material-style.black-color.with-shadows .medium-bar:hover,
+.material-style.black-color.with-shadows .big-bar:hover,
+.material-style.black-color.with-shadows .small-circle:hover,
+.material-style.black-color.with-shadows .medium-circle:hover,
+.material-style.black-color.with-shadows .big-circle:hover,
+.material-style.black-color .shadow:hover {
+    box-shadow: 0 0 24px rgba(255,255,255,0.30);
+}
