@@ -12,6 +12,7 @@ If you would like to propose me changes, to it on the above repository :)
 
 .material-style, .material-style * {
     transition: all 0.4s;
+    z-index: 0;
 }
 a {
     text-decoration: none;
@@ -96,10 +97,13 @@ body {
     height: 3em;
 }
 .material-style #header.links-flat td, .material-style #header.links-flat-buttons td {
-    padding-top: 0.6em;
+    /*padding-top: 0.6em;
     padding-bottom: 0.6em;
     padding-right: 0.7em;
-    padding-left: 0.7em;
+    padding-left: 0.7em;*/
+}
+.material-style #header.links-flat td > *, .material-style #header.links-flat-buttons td > * {
+    margin: 0.6em 0.7em 0.6em 0.7em;
 }
 .material-style #header a {
     text-decoration: none;
@@ -225,13 +229,11 @@ body {
 .material-style #header.links-buttons td.hoverAnimation:hover {
     border: 1px solid #ffffff;
 }
-.material-style #header.links-flat-buttons td.hoverAnimation::after {
-    box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
-    opacity: 0;
+.material-style #header.links-flat-buttons td.hoverAnimation {
+    box-shadow: inset 8px 0px 2px -16px rgba(0,0,0,0.45), inset -8px 0px 2px -16px rgba(0,0,0,0.45);
 }
-.material-style #header.links-flat-buttons td.hoverAnimation:hover::after {
+.material-style #header.links-flat-buttons td.hoverAnimation:hover {
     box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
-    opacity: 1;
 }
 
 /* textBoxes and textarea */
