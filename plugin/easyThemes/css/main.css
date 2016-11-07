@@ -71,52 +71,77 @@
     --mainColor-darker: #A80868;
     --mainColorText: #FFFFFF;
 }
+/* theme colors */
 .white-color.green-second {
     --secondColor: #20D080;
+    --secondColor-lighter: #28D888;
+    --secondColor-darker: #18C878;
     --secondColorText: #FFFFFF;
 }
 .white-color.blue-second {
     --secondColor: #20B0F0;
+    --secondColor-lighter: #28B8F8;
+    --secondColor-darker: #18A8E8;
     --secondColorText: #FFFFFF;
 }
 .white-color.yellow-second {
     --secondColor: #FFFE3A;
+    --secondColor-lighter: #FFFF40;
+    --secondColor-darker: #F8F231;
     --secondColorText: #202020;
 }
 .white-color.orange-second {
     --secondColor: #FF6820;
+    --secondColor-lighter: #FF7028;
+    --secondColor-darker: #FF6018;
     --secondColorText: #FFFFFF;
 }
 .white-color.red-second {
     --secondColor: #F02060;
+    --secondColor-lighter: #F82868;
+    --secondColor-darker: #E81858;
     --secondColorText: #FFFFFF;
 }
 .white-color.purple-second {
     --secondColor: #B01070;
+    --secondColor-lighter: #B81878;
+    --secondColor-darker: #A80868;
     --secondColorText: #FFFFFF;
 }
 .black-color.green-second {
     --secondColor: #20B060;
+    --secondColor-lighter: #28B868;
+    --secondColor-darker: #18A858;
     --secondColorText: #FFFFFF;
 }
 .black-color.blue-second {
     --secondColor: #2090D0;
+    --secondColor-lighter: #2898D8;
+    --secondColor-darker: #1888C8;
     --secondColorText: #FFFFFF;
 }
 .black-color.yellow-second {
     --secondColor: #F0D03A;
+    --secondColor-lighter: #F8D840;
+    --secondColor-darker: #E8C832;
     --secondColorText: #202020;
 }
 .black-color.orange-second {
     --secondColor: #FF6820;
+    --secondColor-lighter: #FF7028;
+    --secondColor-darker: #F86018;
     --secondColorText: #FFFFFF;
 }
 .black-color.red-second {
     --secondColor: #F02060;
+    --secondColor-lighter: #F82868;
+    --secondColor-darker: #E81858;
     --secondColorText: #FFFFFF;
 }
 .black-color.purple-second {
     --secondColor: #B01070;
+    --secondColor-lighter: #B81878;
+    --secondColor-darker: #A80868;
     --secondColorText: #FFFFFF;
 }
 
@@ -132,9 +157,18 @@
 #header.mainBG.links-buttons td, #header.mainBG.links-flat td.hoverAnimation:hover {
     background: var(--mainColor-lighter);
 }
-.white-color #header.mainBG.links-buttons td.hoverAnimation:hover {
+.white-color #header.mainBG.links-buttons td.hoverAnimation:hover, #header.mainBG.links-flat-buttons td.hoverAnimation:hover {
     background: var(--mainColor-darker);
 }
 .black-color #header.mainBG.links-buttons td.hoverAnimation:hover {
     background: var(--mainColor-lighter);
+}
+#header.second.links-buttons td, #header.second.links-flat td.hoverAnimation:hover {
+    background: var(--secondColor-lighter);
+}
+.white-color #header.second.links-buttons td.hoverAnimation:hover, #header.second.links-flat-buttons td.hoverAnimation:hover {
+    background: var(--secondColor-darker);
+}
+.black-color #header.second.links-buttons td.hoverAnimation:hover {
+    background: var(--secondColor-lighter);
 }
