@@ -225,11 +225,13 @@ body {
 .material-style #header.links-buttons td.hoverAnimation:hover {
     border: 1px solid #ffffff;
 }
-.material-style #header.links-flat-buttons td.hoverAnimation:hover {
-    box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0), inset -8px 0px 8px -8px rgba(0,0,0,0);
-}
-.material-style #header.links-flat-buttons td.hoverAnimation:hover {
+.material-style #header.links-flat-buttons td.hoverAnimation::after {
     box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
+    opacity: 0;
+}
+.material-style #header.links-flat-buttons td.hoverAnimation:hover::after {
+    box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
+    opacity: 1;
 }
 
 /* textBoxes and textarea */
@@ -268,7 +270,7 @@ input[type=submit], .pointer, .button {
 .shadow-layer-2 {
     --shadow-width: 16px;
     --shadow-width-big: 16px;
-    --shadow-modifier: -8dp;
+    --shadow-modifier: -8px;
 }
 
 .material-style .horizontal-line {
@@ -295,28 +297,6 @@ input[type=submit], .pointer, .button {
 .material-style.white-color .shadow {
     box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(0,0,0);
 }
-<<<<<<< HEAD
-.material-style.white-color.with-shadows .very-small-bar.shadow-animate:hover,
-.material-style.white-color.with-shadows .small-bar.shadow-animate:hover,
-.material-style.white-color.with-shadows .medium-bar.shadow-animate:hover,
-.material-style.white-color.with-shadows .big-bar.shadow-animate:hover,
-.material-style.white-color.with-shadows .small-circle.shadow-animate:hover,
-.material-style.white-color.with-shadows .medium-circle.shadow-animate:hover,
-.material-style.white-color.with-shadows .big-circle.shadow-animate:hover,
-.material-style.white-color .shadow.shadow-animate:hover {
-    box-shadow: 0 0 16px rgba(0,0,0,0.30);
-=======
-.material-style.white-color.with-shadows .very-small-bar:hover,
-.material-style.white-color.with-shadows .small-bar:hover,
-.material-style.white-color.with-shadows .medium-bar:hover,
-.material-style.white-color.with-shadows .big-bar:hover,
-.material-style.white-color.with-shadows .small-circle:hover,
-.material-style.white-color.with-shadows .medium-circle:hover,
-.material-style.white-color.with-shadows .big-circle:hover,
-.material-style.white-color .shadow:hover {
-    box-shadow: 0 0 var(--shadow-width-big) var(--shadow-modifier) rgba(0,0,0);
->>>>>>> origin/master
-}
 .material-style.black-color.with-shadows .very-small-bar,
 .material-style.black-color.with-shadows .small-bar,
 .material-style.black-color.with-shadows .medium-bar,
@@ -326,30 +306,5 @@ input[type=submit], .pointer, .button {
 .material-style.black-color.with-shadows .big-circle,
 .material-style.black-color.with-shadows #header,
 .material-style.black-color .shadow {
-<<<<<<< HEAD
-    box-shadow: 0 0 8px rgba(255,255,255,0.15);
-}
-.material-style.black-color.with-shadows .very-small-bar.shadow-animate:hover,
-.material-style.black-color.with-shadows .small-bar.shadow-animate:hover,
-.material-style.black-color.with-shadows .medium-bar.shadow-animate:hover,
-.material-style.black-color.with-shadows .big-bar.shadow-animate:hover,
-.material-style.black-color.with-shadows .small-circle.shadow-animate:hover,
-.material-style.black-color.with-shadows .medium-circle.shadow-animate:hover,
-.material-style.black-color.with-shadows .big-circle.shadow-animate:hover,
-.material-style.black-color .shadow.shadow-animate:hover {
-    box-shadow: 0 0 16px rgba(255,255,255,0.20);
-}
-=======
     box-shadow: 0 0 var(--shadow-width) var(--shadow-modifier) rgba(255,255,255,0.25);
 }
-.material-style.black-color.with-shadows .very-small-bar:hover,
-.material-style.black-color.with-shadows .small-bar:hover,
-.material-style.black-color.with-shadows .medium-bar:hover,
-.material-style.black-color.with-shadows .big-bar:hover,
-.material-style.black-color.with-shadows .small-circle:hover,
-.material-style.black-color.with-shadows .medium-circle:hover,
-.material-style.black-color.with-shadows .big-circle:hover,
-.material-style.black-color .shadow:hover {
-    box-shadow: 0 0 var(--shadow-width-big) var(--shadow-modifier) rgba(255,255,255,0.30);
-}
->>>>>>> origin/master
