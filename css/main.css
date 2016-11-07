@@ -145,19 +145,18 @@ body {
     font-size: 150%;
 }
 .material-style .medium-circle {
-    width: 8em;
-    height: 8em;
-    border-radius: 8em;
-    font-size: 200%;
-    padding-top: 2.5em;
-    padding-left: 0.0em;
+    width: 4em;
+    height: 4em;
+    border-radius: 4em;
+    font-size: 400%;
+    align-content: center;
     box-sizing: border-box;
 }
 .material-style .small-circle {
-    width: 8em;
-    height: 8em;
-    border-radius: 8em;
-    font-size: 100%;
+    width: 4em;
+    height: 4em;
+    border-radius: 4em;
+    font-size: 200%;
     align-content: center;
     box-sizing: border-box;
 }
