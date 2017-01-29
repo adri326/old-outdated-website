@@ -87,7 +87,10 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
     right: 0px;
     height: 1em;
     text-align: center;
-    font-size: 150%;
+}
+.material-style #header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .material-style #header.links-buttons table {
     border-collapse: separate;
