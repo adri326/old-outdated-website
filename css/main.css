@@ -39,6 +39,10 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
 .smaller-text {
   font-size: calc(200% / 3);
 }
+.overflow-x {
+	word-break: break-all;
+	overflow-x: visible;
+}
 
 .material-style .big-bar {
     width: 100%;
@@ -86,11 +90,13 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
 }
 .material-style #header .center {
     width: 100%;
-    position: absolute;
+    /*position: absolute;
     top: 0.4em;
+    height: 1em;*/
+    position: static;
+    height: 100%;
     left: 0px;
     right: 0px;
-    height: 1em;
     text-align: center;
 }
 .material-style #header h1 {
@@ -303,7 +309,7 @@ table.light-table > tbody > tr > td.tiny-width {
     width: 30%;
 }
 table.light-table > tbody > tr > td.small-width {
-    width: 50%;
+    width: 66.666%;
 }
 table.light-table > tbody > tr > td.big-width {
     width: 180%;

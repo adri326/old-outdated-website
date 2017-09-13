@@ -1,9 +1,9 @@
 body {
-	font-size: 18px;
+	font-size: 2.5vw;
   max-width: 100%;
 }
 .material-style #header {
-    height: 5.75em;
+    max-height: 5.75em;
 }
 .material-style #table-container {
 	position: absolute;
@@ -33,6 +33,27 @@ body {
       width: 24em;
       font-size: 125%;
   }
+}
+
+.mobile-bigger-text {
+  font-size: 150%;
+}
+.mobile-smaller-text {
+  font-size: calc(200% / 3);
+}
+.mobile-overflow-x {
+	word-break: break-all;
+	overflow-x: visible;
+}
+
+.material-style .mobile-thin {
+    font-weight: 100;
+}
+.material-style .mobile-light {
+    font-weight: 150;
+}
+.material-style .mobile-regular {
+    font-weight: 500;
 }
 
 .material-style .small-circle {

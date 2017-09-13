@@ -15,12 +15,28 @@ body {
 .right {
 	display: inline-block;
 }
+.material-style .desktop-thin {
+    font-weight: 100;
+}
+.material-style .desktop-light {
+    font-weight: 150;
+}
+.material-style .desktop-regular {
+    font-weight: 500;
+}
 .material-style .light-list > li {
 	margin-right: 0.3em;
 }
 .material-style .light-list > li:hover {
 	margin-left: 0.3em;
 	margin-right: 0em;
+}
+
+.desktop-bigger-text {
+  font-size: 150%;
+}
+.desktop-smaller-text {
+  font-size: calc(200% / 3);
 }
 
 .material-style #header.links-flat-buttons td.hoverAnimation {
