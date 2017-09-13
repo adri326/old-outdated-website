@@ -33,7 +33,12 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
     text-decoration: inherit;
 }
 
-
+.bigger-text {
+  font-size: 150%;
+}
+.smaller-text {
+  font-size: calc(200% / 3);
+}
 
 .material-style .big-bar {
     width: 100%;
@@ -282,12 +287,29 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
 .material-style .regular {
     font-weight: 500;
 }
+
+/* Table management */
 table.light-table {
     table-layout: fixed;
     width: 80%;
 }
 table.light-table > tbody > tr > td {
-  vertical-align: top;
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+}
+table.light-table > tbody > tr > td.tiny-width {
+    width: 30%;
+}
+table.light-table > tbody > tr > td.small-width {
+    width: 50%;
+}
+table.light-table > tbody > tr > td.big-width {
+    width: 180%;
+}
+.white-color table.light-table > tbody > tr:not(:last-child) > td {
+  border-bottom-right-radius: 1px;
 }
 
 /* header links theme */

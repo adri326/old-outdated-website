@@ -4,6 +4,10 @@ body {
 .material-style #header {
 	height: 3em;
 }
+.material-style #header h1 {
+	font-size: 1.4em;
+	margin-top: 0.22em;
+}
 .material-style #header table {
 	position: absolute;
 	right: 0px;
