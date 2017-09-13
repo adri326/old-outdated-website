@@ -229,6 +229,7 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
     padding-left: 0px;
     font-size: 150%;
     width: 30em;
+    max-width: 80%;
 }
 .material-style .light-list > li {
     padding-left: 1em;
@@ -244,7 +245,7 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
     float: right;
 }
 .hoverhidden {
-    
+
 }
 .hoverhidden .a {
     position: absolute;
@@ -280,6 +281,13 @@ h1.no-typography-changes, h2.no-typography-changes, h3.no-typography-changes {
 }
 .material-style .regular {
     font-weight: 500;
+}
+table.light-table {
+    table-layout: fixed;
+    width: 80%;
+}
+table.light-table > tbody > tr > td {
+  vertical-align: top;
 }
 
 /* header links theme */
