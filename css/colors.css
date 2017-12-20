@@ -15,8 +15,8 @@
     --colorG: 255;
     --colorB: 255;
 }
-body.black-color.blackBG {
-    background: #303030;
+body.blackBG {
+    background: #242424;
 }
 
 /* Links colors */
@@ -76,6 +76,14 @@ body.black-color.blackBG {
     --colorG: 0;
     --colorB: 0;
 }
+.white-color .greyBG {
+    background: #d0d0d0;
+    color: #101010;
+    --color: #101010;
+    --colorR: 16;
+    --colorG: 16;
+    --colorB: 16;
+}
 
 /* bars background color (black-color theme), no hover */
 .black-color .greenBG {
@@ -102,6 +110,16 @@ body.black-color.blackBG {
     background: #B01070;
     color: #FFFFFF;
 }
+.black-color .greyBG {
+    background: #606060;
+    color: #FFFFFF;
+}
+.black-color.blackBG .greyBG {
+    background: #363636;
+    color: #FFFFFF;
+}
+
+
 /* bars background color (black-color theme), hover */
 .black-color .purpleBG:not(.noHover):hover {
     background: #A01060;
@@ -112,44 +130,115 @@ body.black-color.blackBG {
     color: #fff;
 }
 /* BLUE */
-.white-color #header.blueBG.links-buttons td, .black-color #header.blueBG.links-buttons td, .white-color #header.blueBG.links-flat td.hoverAnimation:hover, .black-color #header.blueBG.links-flat td.hoverAnimation:hover {
+.white-color #header.blueBG.links-buttons td,
+.black-color #header.blueBG.links-buttons td,
+.white-color #header.blueBG.links-flat td.hoverAnimation:hover,
+.black-color #header.blueBG.links-flat td.hoverAnimation:hover,
+
+.white-color #header.blueBG.links-buttons .links > *,
+.black-color #header.blueBG.links-buttons .links > *,
+.white-color #header.blueBG.links-flat.animate-links .links > *:hover,
+.black-color #header.blueBG.links-flat.animate-links .links > *:hover,
+.white-color #header.blueBG.links-flat-buttons.animate-links .links > *:hover,
+.black-color #header.blueBG.links-flat-buttons.animate-links .links > *:hover {
     background: #18A8E8;
 }
-.white-color #header.blueBG.links-buttons td.hoverAnimation:hover {
+.white-color #header.blueBG.links-buttons td.hoverAnimation:hover,
+.white-color #header.blueBG.links-buttons.animate-links .links > *:hover {
     background: #1090D0;
 }
-.black-color #header.blueBG.links-buttons td.hoverAnimation:hover {
+.black-color #header.blueBG.links-buttons td.hoverAnimation:hover,
+.black-color #header.blueBG.links-buttons.animate-links .links > *:hover {
     background: #1070B0;
 }
 /* GREEN */
-.white-color #header.greenBG.links-buttons td, .black-color #header.greenBG.links-buttons td, .white-color #header.greenBG.links-flat td.hoverAnimation:hover, .black-color #header.greenBG.links-flat td.hoverAnimation:hover {
+.white-color #header.greenBG.links-buttons td,
+.black-color #header.greenBG.links-buttons td,
+.white-color #header.greenBG.links-flat td.hoverAnimation:hover,
+.black-color #header.greenBG.links-flat td.hoverAnimation:hover,
+
+
+.white-color #header.greenBG.links-buttons .links > *,
+.black-color #header.greenBG.links-buttons .links > *,
+.white-color #header.greenBG.links-flat.animate-links .links > *:hover,
+.black-color #header.greenBG.links-flat.animate-links .links > *:hover,
+.white-color #header.greenBG.links-flat-buttons.animate-links .links > *:hover,
+.black-color #header.greenBG.links-flat-buttons.animate-links .links > *:hover {
     background: #20E080;
 }
-.white-color #header.greenBG.links-buttons td.hoverAnimation:hover {
+.white-color #header.greenBG.links-buttons td.hoverAnimation:hover,
+.white-color #header.greenBG.links-buttons.animate-links .links > *:hover {
     background: #20C060;
 }
-.black-color #header.greenBG.links-buttons td.hoverAnimation:hover {
+.black-color #header.greenBG.links-buttons td.hoverAnimation:hover,
+.black-color #header.greenBG.links-buttons.animate-links .links > *:hover {
     background: #20A060;
 }
+/* ORANGE */
+.white-color #header.orangeBG.links-buttons td,
+.black-color #header.orangeBG.links-buttons td,
+.white-color #header.orangeBG.links-flat td.hoverAnimation:hover,
+.black-color #header.orangeBG.links-flat td.hoverAnimation:hover,
+
+.white-color #header.orangeBG.links-buttons .links > *,
+.black-color #header.orangeBG.links-buttons .links > *,
+.white-color #header.orangeBG.links-flat.animate-links .links > *:hover,
+.black-color #header.orangeBG.links-flat.animate-links .links > *:hover,
+.white-color #header.orangeBG.links-flat-buttons.animate-links .links > *:hover,
+.black-color #header.orangeBG.links-flat-buttons.animate-links .links > *:hover {
+    background: #FF874A;
+}
+.white-color #header.orangeBG.links-buttons td.hoverAnimation:hover,
+.white-color #header.orangeBG.links-buttons.animate-links .links > *:hover {
+    background: #FF7321;
+}
+.black-color #header.orangeBG.links-buttons td.hoverAnimation:hover,
+.black-color #header.orangeBG.links-buttons.animate-links .links > *:hover {
+    background: #FF6517;
+}
 /* PURPLE */
-.white-color #header.purpleBG.links-buttons td, .black-color #header.purpleBG.links-buttons td, .white-color #header.purpleBG.links-flat td.hoverAnimation:hover, .black-color #header.purpleBG.links-flat td.hoverAnimation:hover {
+.white-color #header.purpleBG.links-buttons td,
+.black-color #header.purpleBG.links-buttons td,
+.white-color #header.purpleBG.links-flat td.hoverAnimation:hover,
+.black-color #header.purpleBG.links-flat td.hoverAnimation:hover,
+
+.white-color #header.purpleBG.links-buttons .links > *,
+.black-color #header.purpleBG.links-buttons .links > *,
+.white-color #header.purpleBG.links-flat.animate-links .links > *:hover,
+.black-color #header.purpleBG.links-flat.animate-links .links > *:hover,
+.white-color #header.purpleBG.links-flat-buttons.animate-links .links > *:hover,
+.black-color #header.purpleBG.links-flat-buttons.animate-links .links > *:hover {
     background: #C01080;
 }
-.white-color #header.purpleBG.links-buttons td.hoverAnimation:hover {
+.white-color #header.purpleBG.links-buttons td.hoverAnimation:hover,
+.white-color #header.purpleBG.links-buttons.animate-links .links > *:hover {
     background: #B01070;
 }
-.black-color #header.purpleBG.links-buttons td.hoverAnimation:hover {
+.black-color #header.purpleBG.links-buttons td.hoverAnimation:hover,
+.black-color #header.purpleBG.links-buttons.animate-links .links > *:hover {
     background: #A01060;
 }
 /* RED */
-.white-color #header.redBG.links-buttons td, .black-color #header.redBG.links-buttons td, .white-color #header.redBG.links-flat td.hoverAnimation:hover, .black-color #header.redBG.links-flat td.hoverAnimation:hover {
+.white-color #header.redBG.links-buttons td,
+.black-color #header.redBG.links-buttons td,
+.white-color #header.redBG.links-flat td.hoverAnimation:hover,
+.black-color #header.redBG.links-flat td.hoverAnimation:hover,
+
+.white-color #header.redBG.links-buttons .links > *,
+.black-color #header.redBG.links-buttons .links > *,
+.white-color #header.redBG.links-flat.animate-links .links > *:hover,
+.black-color #header.redBG.links-flat.animate-links .links > *:hover,
+.white-color #header.redBG.links-flat-buttons.animate-links .links > *:hover,
+.black-color #header.redBG.links-flat-buttons.animate-links .links > *:hover {
     background: #F04070;
 }
-.white-color #header.redBG.links-buttons td.hoverAnimation:hover {
-    background: #F93090;
+.white-color #header.redBG.links-buttons td.hoverAnimation:hover,
+.white-color #header.redBG.links-buttons.animate-links .links > *:hover {
+    background: #FF6090;
 }
-.black-color #header.redBG.links-buttons td.hoverAnimation:hover {
-    background: #FF20B0;
+.black-color #header.redBG.links-buttons td.hoverAnimation:hover,
+.black-color #header.redBG.links-buttons.animate-links .links > *:hover {
+    background: #FF6090;
 }
 
 .white-color #header .center, .black-color #header .center {
@@ -190,4 +279,18 @@ body.black-color.blackBG {
 /* grey text */
 .white-color .grey-text, .black-color .grey-text {
     color: #888;
+}
+
+.white-color *::selection {
+  background: rgba(16, 16, 16, 0.2);
+}
+.white-color *::moz-selection {
+  background: rgba(16, 16, 16, 0.2);
+}
+
+.black-color *::selection {
+  background: rgba(230, 230, 230, 0.2);
+}
+.black-color *::moz-selection {
+  background: rgba(230, 230, 230, 0.2);
 }

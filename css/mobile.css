@@ -3,7 +3,8 @@ body {
   max-width: 100%;
 }
 .material-style #header {
-    max-height: 5.75em;
+    max-height: 6em;
+		min-height: 3em;
 }
 .material-style #table-container {
 	position: absolute;
@@ -20,19 +21,19 @@ body {
   text-align: center;
   height: 3.25em !important;
 }
-@media screen and (max-width: 600px) {
-  .material-style .wrap-text {
-      text-align: justify;
-      width: 16em;
-      font-size: 125%;
-  }
+
+.material-style .wrap-text,
+.material-style .paragraph {
+	--width: 24em;
+		text-align: justify;
+		width: var(--width);
+		font-size: 125%;
+		max-width: 75vw;
 }
-@media screen and (min-width: 600px) {
-  .material-style .wrap-text {
-      text-align: justify;
-      width: 24em;
-      font-size: 125%;
-  }
+.material-style .wrap-text.center,
+.material-style .paragraph.center {
+	margin-left: calc(50vw - var(--width) / 2);
+	margin-right: calc(50vw - var(--width) / 2);
 }
 
 .mobile-bigger-text {

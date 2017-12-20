@@ -45,8 +45,35 @@ body {
 .material-style #header.links-flat-buttons td.hoverAnimation:hover {
     box-shadow: inset 8px 0px 8px -8px rgba(0,0,0,0.45), inset -8px 0px 8px -8px rgba(0,0,0,0.45);
 }
-.material-style .wrap-text {
+
+.material-style .wrap-text,
+.material-style .paragraph {
+	--width: 30em;
     text-align: justify;
-    width: 20em;
-    font-size: 150%;
+    width: var(--width);
+		max-width: 75vw;
+}
+
+.material-style .wrap-text:not(.center),
+.material-style .paragraph:not(.center) {
+	margin-left: 0.7em;
+}
+
+.material-style .wrap-text.center,
+.material-style .paragraph.center {
+	margin-left: calc(50vw - var(--width) / 2);
+	margin-right: calc(50vw - var(--width) / 2);
+}
+
+.material-style .wrap-text.small-width,
+.material-style .paragraph.small-width {
+	--width: 20em;
+}
+.material-style .wrap-text.medium-width,
+.material-style .paragraph.medium-width {
+	--width: 30em;
+}
+.material-style .wrap-text.big-width,
+.material-style .paragraph.big-width {
+	--width: 40em;
 }
